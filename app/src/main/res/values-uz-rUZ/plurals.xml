@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d ta element tanlandi</item>
+        <item quantity="other">%1$d ta narsa belgilandi</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Sahifa: %1$d/%2$d</item>
+        <item quantity="other">Sahifa: %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d ta element tarjimalaringiz tarixidan butunlay oʻchirib tashlanadi.</item>
+        <item quantity="other">%1$d ta element tarjimalaringiz tarixidan butunlay oʻchirib tashlanadi.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d ta elementni oʻchirish?</item>
+        <item quantity="other">%1$d ta elementni oʻchirish?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">%1$d ta element tarjimalaringiz tarixidan oʻchirib tashlansinmi?</item>
+        <item quantity="other">%1$d ta element tarjimalaringiz tarixidan oʻchirib tashlansinmi?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Tanlandi: %1$d</item>
+        <item quantity="other">Tanlandi: %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ta yangi bildirishnoma</item>
+        <item quantity="other">%d ta yangi bildirishnoma</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d ta element ushbu qurilmadan butunlay oʻchirib tashlanadi.</item>
+        <item quantity="other">%1$d ta element ushbu qurilmadan butunlay oʻchirib tashlanadi.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search-infos>
+    <version>20250718
+    </version>
+    <info>
+        <index_key>key_setting_home
+        </index_key>
+        <index_title>@string/ai_btn
+        </index_title>
+        <index_summary>@string/app_name_new
+        </index_summary>
+        <index_keywords>@string/setting_ai;@string/app_name_new;@string/ai_btn
+        </index_keywords>
+        <index_screen_title>@string/setting_ai;@string/ai_btn
+        </index_screen_title>
+        <index_target_package>com.coloros.translate
+        </index_target_package>
+        <index_target_action>com.oplus.setting.ai.action.SETTING_ENTRANCE
+        </index_target_action>
+        <support_clone_system>false
+        </support_clone_system>
+    </info>
+</search-infos>

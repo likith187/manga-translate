@@ -1,0 +1,18 @@
+{
+  "identifier": {
+    "url": "com.coloros.translate.536877996",
+    "id": "536877996",
+    "type": "apk",
+    "name": "语音翻译小布接入",
+    "version": "1.0.2",
+    "versionCode": 1000002,
+    "description": "我是一个APK软件包，提供不可见的服务。包含语音翻译小布接入的能力，适用于语音类的入口。"
+  },
+  "intent": {},
+  "runtime": {
+    "type": "background"
+  },
+  "meta-data": {
+    "capabilities": "capabilities.json"
+  }
+}

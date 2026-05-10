@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardview.COUICardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/coui_color_card"
+    app:cardCornerRadius="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:maxLines="1"/>
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/asrText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="@style/couiTextBodyXS"
+                android:textColor="@color/coui_color_label_secondary"
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024 /8/27 12:34"
+                android:textFontWeight="400"/>
+            <View
+                android:layout_gravity="center_vertical"
+                android:background="@color/coui_color_divider"
+                android:layout_width="@dimen/divider_height"
+                android:layout_height="12dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"/>
+            <TextView
+                android:textAppearance="@style/couiTextBodyXS"
+                android:textColor="@color/coui_color_label_secondary"
+                android:id="@+id/recordTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024 /8/27 12:34"
+                android:textFontWeight="400"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.coui.appcompat.cardview.COUICardView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Էջ %1$d՝ %2$d-ից</item>
+        <item quantity="other">Էջ %1$d՝ %2$d-ից</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d տարր ընդմիշտ կջնջվի Ձեր թարգմանության պատմությունից:</item>
+        <item quantity="other">%1$d տարր ընդմիշտ կջնջվի Ձեր թարգմանության պատմությունից:</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Ջնջե՞լ %1$d տարր։</item>
+        <item quantity="other">Ջնջե՞լ %1$d տարր։</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Ջնջե՞լ %1$d տարր Ձեր թարգմանությունների պատմությունից:</item>
+        <item quantity="other">Ջնջե՞լ %1$d տարր Ձեր թարգմանությունների պատմությունից:</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d ընտրվել է</item>
+        <item quantity="other">%1$d ընտրվել է</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d նոր ծանուցում</item>
+        <item quantity="other">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d տարր ընդմիշտ կջնջվի այս սարքից։</item>
+        <item quantity="other">%1$d տարր ընդմիշտ կջնջվի այս սարքից։</item>
+    </plurals>
+</resources>

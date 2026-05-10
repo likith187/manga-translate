@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="collect_interval">
+        <item>@string/last_7_days</item>
+        <item>@string/last_1_month</item>
+        <item>@string/last_3_month</item>
+        <item>@string/last_1_year</item>
+    </array>
+    <array name="coui_lunar_month">
+        <item>@string/lunar_january</item>
+        <item>@string/lunar_februry</item>
+        <item>@string/lunar_march</item>
+        <item>@string/lunar_april</item>
+        <item>@string/lunar_may</item>
+        <item>@string/lunar_june</item>
+        <item>@string/lunar_july</item>
+        <item>@string/lunar_august</item>
+        <item>@string/lunar_september</item>
+        <item>@string/lunar_october</item>
+        <item>@string/lunar_november</item>
+        <item>@string/lunar_december</item>
+    </array>
+    <array name="coui_solor_mounth">
+        <item>@string/january</item>
+        <item>@string/februry</item>
+        <item>@string/march</item>
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/june</item>
+        <item>@string/july</item>
+        <item>@string/august</item>
+        <item>@string/september</item>
+        <item>@string/october</item>
+        <item>@string/november</item>
+        <item>@string/december</item>
+    </array>
+    <array name="coui_theme_arrays_default_patch">
+        <item>@style/COUIOverlay.Theme.Green.Default</item>
+        <item>@style/COUIOverlay.Theme.Red.Default</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Default</item>
+        <item>@style/COUIOverlay.Theme.Blue.Default</item>
+        <item>@style/COUIOverlay.Theme.Orange.Default</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Default</item>
+    </array>
+    <array name="coui_theme_arrays_fifth">
+        <item>@style/COUIOverlay.Theme.Green.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Red.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fifth</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fifth</item>
+    </array>
+    <array name="coui_theme_arrays_first">
+        <item>@style/COUIOverlay.Theme.Green.First</item>
+        <item>@style/COUIOverlay.Theme.Red.First</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First</item>
+        <item>@style/COUIOverlay.Theme.Blue.First</item>
+        <item>@style/COUIOverlay.Theme.Orange.First</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First</item>
+    </array>
+    <array name="coui_theme_arrays_first_patch_o">
+        <item>@style/COUIOverlay.Theme.Green.First.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.First.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.First.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.First.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First.Patch.O</item>
+    </array>
+    <array name="coui_theme_arrays_first_patch_r">
+        <item>@style/COUIOverlay.Theme.Green.First.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.First.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.First.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.First.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First.Patch.R</item>
+    </array>
+    <array name="coui_theme_arrays_first_repatch_o">
+        <item>@style/COUIOverlay.Theme.Green.First.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.First.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.First.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.First.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First.Repatch.O</item>
+    </array>
+    <array name="coui_theme_arrays_first_repatch_r">
+        <item>@style/COUIOverlay.Theme.Green.First.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.First.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.First.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.First.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.First.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.First.Repatch.R</item>
+    </array>
+    <array name="coui_theme_arrays_fourth">
+        <item>@style/COUIOverlay.Theme.Green.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth</item>
+    </array>
+    <array name="coui_theme_arrays_fourth_patch_o">
+        <item>@style/COUIOverlay.Theme.Green.Fourth.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth.Patch.O</item>
+    </array>
+    <array name="coui_theme_arrays_fourth_patch_r">
+        <item>@style/COUIOverlay.Theme.Green.Fourth.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth.Patch.R</item>
+    </array>
+    <array name="coui_theme_arrays_fourth_repatch_o">
+        <item>@style/COUIOverlay.Theme.Green.Fourth.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth.Repatch.O</item>
+    </array>
+    <array name="coui_theme_arrays_fourth_repatch_r">
+        <item>@style/COUIOverlay.Theme.Green.Fourth.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Fourth.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Fourth.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Fourth.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Fourth.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Fourth.Repatch.R</item>
+    </array>
+    <array name="coui_theme_arrays_ids">
+        <item>@array/coui_theme_arrays_first</item>
+        <item>@array/coui_theme_arrays_second</item>
+        <item>@array/coui_theme_arrays_third</item>
+        <item>@array/coui_theme_arrays_fourth</item>
+        <item>@array/coui_theme_arrays_fifth</item>
+    </array>
+    <array name="coui_theme_arrays_ids_patch_o">
+        <item>@array/coui_theme_arrays_first_patch_o</item>
+        <item>@array/coui_theme_arrays_second_patch_o</item>
+        <item>@array/coui_theme_arrays_third_patch_o</item>
+        <item>@array/coui_theme_arrays_fourth_patch_o</item>
+    </array>
+    <array name="coui_theme_arrays_ids_patch_r">
+        <item>@array/coui_theme_arrays_first_patch_r</item>
+        <item>@array/coui_theme_arrays_second_patch_r</item>
+        <item>@array/coui_theme_arrays_third_patch_r</item>
+        <item>@array/coui_theme_arrays_fourth_patch_r</item>
+    </array>
+    <array name="coui_theme_arrays_ids_repatch_o">
+        <item>@array/coui_theme_arrays_first_repatch_o</item>
+        <item>@array/coui_theme_arrays_second_repatch_o</item>
+        <item>@array/coui_theme_arrays_third_repatch_o</item>
+        <item>@array/coui_theme_arrays_fourth_repatch_o</item>
+    </array>
+    <array name="coui_theme_arrays_ids_repatch_r">
+        <item>@array/coui_theme_arrays_first_repatch_r</item>
+        <item>@array/coui_theme_arrays_second_repatch_r</item>
+        <item>@array/coui_theme_arrays_third_repatch_r</item>
+        <item>@array/coui_theme_arrays_fourth_repatch_r</item>
+    </array>
+    <array name="coui_theme_arrays_second">
+        <item>@style/COUIOverlay.Theme.Green.Second</item>
+        <item>@style/COUIOverlay.Theme.Red.Second</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second</item>
+    </array>
+    <array name="coui_theme_arrays_second_patch_o">
+        <item>@style/COUIOverlay.Theme.Green.Second.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Second.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second.Patch.O</item>
+    </array>
+    <array name="coui_theme_arrays_second_patch_r">
+        <item>@style/COUIOverlay.Theme.Green.Second.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Second.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second.Patch.R</item>
+    </array>
+    <array name="coui_theme_arrays_second_repatch_o">
+        <item>@style/COUIOverlay.Theme.Green.Second.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Second.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second.Repatch.O</item>
+    </array>
+    <array name="coui_theme_arrays_second_repatch_r">
+        <item>@style/COUIOverlay.Theme.Green.Second.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Second.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Second.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Second.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Second.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Second.Repatch.R</item>
+    </array>
+    <array name="coui_theme_arrays_single">
+        <item>@style/COUIOverlay.Theme.Single.First</item>
+        <item>@style/COUIOverlay.Theme.Single.Second</item>
+        <item>@style/COUIOverlay.Theme.Single.Third</item>
+        <item>@style/COUIOverlay.Theme.Single.Fourth</item>
+        <item>@style/COUIOverlay.Theme.Single.Fifth</item>
+        <item>@style/COUIOverlay.Theme.Single.Sixth</item>
+        <item>@style/COUIOverlay.Theme.Single.Seventh</item>
+        <item>@style/COUIOverlay.Theme.Single.Eighth</item>
+        <item>@style/COUIOverlay.Theme.Single.Ninth</item>
+        <item>@style/COUIOverlay.Theme.Single.Tenth</item>
+    </array>
+    <array name="coui_theme_arrays_single_patch_p">
+        <item>@style/COUIOverlay.Theme.Single.First.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Second.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Third.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Fourth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Fifth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Sixth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Seventh.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Eighth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Ninth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Tenth.Patch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Eleventh.Patch.P</item>
+    </array>
+    <array name="coui_theme_arrays_single_repatch_p">
+        <item>@style/COUIOverlay.Theme.Single.First.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Second.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Third.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Fourth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Fifth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Sixth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Seventh.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Eighth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Ninth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Tenth.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Eleventh.Repatch.P</item>
+        <item>@style/COUIOverlay.Theme.Single.Twelfth.Repatch.P</item>
+    </array>
+    <array name="coui_theme_arrays_third">
+        <item>@style/COUIOverlay.Theme.Green.Third</item>
+        <item>@style/COUIOverlay.Theme.Red.Third</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third</item>
+    </array>
+    <array name="coui_theme_arrays_third_patch_o">
+        <item>@style/COUIOverlay.Theme.Green.Third.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Third.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third.Patch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third.Patch.O</item>
+    </array>
+    <array name="coui_theme_arrays_third_patch_r">
+        <item>@style/COUIOverlay.Theme.Green.Third.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Third.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third.Patch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third.Patch.R</item>
+    </array>
+    <array name="coui_theme_arrays_third_repatch_o">
+        <item>@style/COUIOverlay.Theme.Green.Third.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Red.Third.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third.Repatch.O</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third.Repatch.O</item>
+    </array>
+    <array name="coui_theme_arrays_third_repatch_r">
+        <item>@style/COUIOverlay.Theme.Green.Third.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Red.Third.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Yellow.Third.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Blue.Third.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.Orange.Third.Repatch.R</item>
+        <item>@style/COUIOverlay.Theme.SkyBlue.Third.Repatch.R</item>
+    </array>
+    <array name="coui_time_picker_ampm">
+        <item>@string/morning</item>
+        <item>@string/afternoon</item>
+    </array>
+    <array name="play_speed">
+        <item>@string/times_0.5</item>
+        <item>@string/times_1</item>
+        <item>@string/times_1.5</item>
+        <item>@string/times_2.0</item>
+    </array>
+    <array name="sensitive_result">
+        <item>平近习</item>
+    </array>
+</resources>

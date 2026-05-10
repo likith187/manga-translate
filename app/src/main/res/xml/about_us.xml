@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference
+        android:layout="@layout/preference_header"
+        android:selectable="false"/>
+    <com.coui.appcompat.aboutpage.COUIAppInfoPreference
+        android:enabled="false"
+        android:key="app_info"/>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:key="category_open_source"
+        app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:title="@string/open_source_code_licenses"
+            android:key="open_source"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

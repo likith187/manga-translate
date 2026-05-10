@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference
+        android:layout="@layout/preference_header"
+        android:selectable="false"/>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:title="@string/collection_situation"
+        android:key="collection_situation_title"
+        android:widgetLayout="@layout/coui_preference_category_widget_layout_textwithicon"
+        app:icon_in_right="@drawable/ic_arrow_down"
+        app:text_in_right="@string/last_7_days"
+        app:title_type="small"
+        app:top_margin_type="small">
+        <com.coui.appcompat.preference.COUIPreference
+            android:title="@string/use_aim"
+            android:key="use_purpose"/>
+        <com.coui.appcompat.preference.COUIPreference
+            android:title="@string/usage_scenario"
+            android:key="use_cases"/>
+        <com.coui.appcompat.preference.COUIPreference
+            android:title="@string/collection_situation"
+            android:key="collection_situation"
+            android:summary="/"/>
+        <com.coui.appcompat.preference.COUIPreference
+            android:title="@string/info_content"
+            android:key="information_content"
+            android:summary="/"/>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory
+        android:title="@string/collection_info_tip"
+        android:key="explain"
+        app:title_type="small"/>
+</androidx.preference.PreferenceScreen>

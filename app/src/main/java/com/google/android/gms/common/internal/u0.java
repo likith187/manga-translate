@@ -1,0 +1,20 @@
+package com.google.android.gms.common.internal;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: classes.dex */
+final class u0 implements Parcelable.Creator {
+    u0() {
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object createFromParcel(Parcel parcel) {
+        return new BinderWrapper(parcel, null);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i10) {
+        return new BinderWrapper[i10];
+    }
+}

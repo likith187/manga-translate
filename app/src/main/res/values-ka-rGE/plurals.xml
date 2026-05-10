@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">გვერდი %1$d / %2$d</item>
+        <item quantity="other">გვერდი %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d ელემენტი სამუდამოდ წაიშლება თქვენი თარგმნის ისტორიიდან.</item>
+        <item quantity="other">%1$d ელემენტი სამუდამოდ წაიშლება თქვენი თარგმნის ისტორიიდან.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d ელემენტის წაშლა?</item>
+        <item quantity="other">%1$d ელემენტის წაშლა?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">წაიშალოს %1$d ელემენტი თქვენი თარგმნის ისტორიიდან?</item>
+        <item quantity="other">წაიშალოს %1$d ელემენტი თქვენი თარგმნის ისტორიიდან?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d არჩეულია</item>
+        <item quantity="other">%1$d არჩეულია</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ახალი შეტყობინება</item>
+        <item quantity="other">%d ახალი შეტყობინებები</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+        <item quantity="other">%1$d ელემენტი სამუდამოდ წაიშლება ამ მოწყობილობიდან.</item>
+    </plurals>
+</resources>

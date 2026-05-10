@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Stranica %1$d od %2$d</item>
+        <item quantity="few">Stranica %1$d od %2$d</item>
+        <item quantity="other">Stranica %1$d od %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">Broj stavki koje će biti trajno izbrisane iz vaše povijesti prijevoda: %1$d</item>
+        <item quantity="few">Broj stavki koje će biti trajno izbrisane iz vaše povijesti prijevoda: %1$d</item>
+        <item quantity="other">Broj stavki koje će biti trajno izbrisane iz vaše povijesti prijevoda: %1$d</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Izbrisati %1$d stavku?</item>
+        <item quantity="few">Izbrisati sljedeći broj stavki: %1$d?</item>
+        <item quantity="other">Izbrisati sljedeći broj stavki: %1$d?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Želite li izbrisati %1$d stavku iz povijesti prijevoda?</item>
+        <item quantity="few">Želite li iz povijesti prijevoda izbrisati sljedeći broj stavki: %1$d?</item>
+        <item quantity="other">Želite li iz povijesti prijevoda izbrisati sljedeći broj stavki: %1$d?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Odabrano: %1$d</item>
+        <item quantity="few">Odabrano: %1$d</item>
+        <item quantity="other">Odabrano: %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">Novih obavijesti: %d</item>
+        <item quantity="other">Novih obavijesti: %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d će se stavka trajno izbrisati s ovog uređaja.</item>
+        <item quantity="few">S ovog uređaja trajno će se izbrisati sljedeći broj stavki: %1$d.</item>
+        <item quantity="other">S ovog uređaja trajno će se izbrisati sljedeći broj stavki: %1$d.</item>
+    </plurals>
+</resources>

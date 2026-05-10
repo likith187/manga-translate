@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_coui_shape_checkbox_unselected_to_part__0_res_0x7f08017d">
+    <target
+        android:name="_R_G_L_3_G"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__1_res_0x7f08017e"/>
+    <target
+        android:name="_R_G_L_2_G"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__6_res_0x7f080191"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__11_res_0x7f080180"/>
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__14_res_0x7f080183"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__19_res_0x7f080188"/>
+    <target
+        android:name="_R_G_L_0_G"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__22_res_0x7f08018c"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_coui_shape_checkbox_unselected_to_part__23_res_0x7f08018d"/>
+</animated-vector>

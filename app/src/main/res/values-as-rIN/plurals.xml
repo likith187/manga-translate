@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d আইটেম বাছনি কৰিছে</item>
+        <item quantity="other">%1$d আইটেম বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">পৃষ্ঠা %2$d-ৰ %1$d</item>
+        <item quantity="other">পৃষ্ঠা %2$d-ৰ %1$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">আপোনাৰ অনুবাদ ইতিবৃত্তৰ পৰা %1$d-টা বস্তু স্থায়ীভাৱে বিলোপ কৰা হ’ব।</item>
+        <item quantity="other">আপোনাৰ অনুবাদ ইতিবৃত্তৰ পৰা %1$d-টা বস্তু স্থায়ীভাৱে বিলোপ কৰা হ’ব।</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d টা আইটেম বিলোপ কৰিবনে?</item>
+        <item quantity="other">%1$d টা আইটেম বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">আপোনাৰ অনুবাদ ইতিবৃত্তৰ পৰা %1$d-টা বস্তু বিলোপ কৰক?</item>
+        <item quantity="other">আপোনাৰ অনুবাদ ইতিবৃত্তৰ পৰা %1$d-টা বস্তু বিলোপ কৰিবনে?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d বাছনি কৰিছে</item>
+        <item quantity="other">%1$d বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d নতুন জাননী</item>
+        <item quantity="other">%d নতুন জাননীসমূহ</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">এই ডিভাইচৰ পৰা %1$d-টা আইটেম স্থায়ীভাৱে বিলোপ কৰা হ’ব।</item>
+        <item quantity="other">এই ডিভাইচৰ পৰা %1$d-টা আইটেমসমূহ স্থায়ীভাৱে বিলোপ কৰা হ’ব।</item>
+    </plurals>
+</resources>

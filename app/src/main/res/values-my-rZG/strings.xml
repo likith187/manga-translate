@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_cancel">မလုပ္ေတာ့</string>
+    <string name="action_delete">ဖ်က္ရန္</string>
+    <string name="app_name">ဘာသာျပန္</string>
+    <string name="chinese">တ႐ုတ္</string>
+    <string name="copy_talk">ကူးယူ</string>
+    <string name="download_Complete">ေဒါင္းလုဒ္လုပ္ၿပီး</string>
+    <string name="download_error">ေဒါင္းလုဒ္လုပ္ျခင္းမေအာင္ျမင္ပါ</string>
+    <string name="download_offline_package_title">ေအာ့ဖ္လိုင္းပက္ေက့ဂ်္ ေဒါင္းလုဒ္လုပ္ရန္</string>
+    <string name="download_wait">ေစာင့္ပါ</string>
+    <string name="english">အဂၤလိပ္</string>
+    <string name="enlarge_talk">ခ်ဲ႕</string>
+    <string name="french">ျပင္သစ္</string>
+    <string name="japanese">ဂ်ပန္</string>
+    <string name="korean">ကိုရီးယား</string>
+    <string name="language_select">ဘာသာစကားေရြးခ်ယ္မည္</string>
+    <string name="play_sound_talk">ေျပာရန္</string>
+    <string name="privacy_policy_agree">သေဘာတူၿပီး ေရွ႕ဆက္ရန္</string>
+    <string name="privacy_policy_more">ကိုယ္ေရးလံုၿခံဳမႈ မူဝါဒ</string>
+    <string name="tip_max_record_time">အသံဖိုင္သည္ 60 စကၠန္႔ေက်ာ္သျဖင့္ အသိအမွတ္ျပဳ၍ မရပါ</string>
+    <string name="update">အပ္ဒိတ္</string>
+    <string name="vietnamese">ဗီယက္နမ္</string>
+</resources>

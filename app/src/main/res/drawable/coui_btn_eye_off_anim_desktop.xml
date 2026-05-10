@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_coui_btn_eye_off_anim_desktop__0_res_0x7f08000f">
+    <target
+        android:name="_R_G_L_2_C_0"
+        android:animation="@drawable/_coui_btn_eye_off_anim_desktop__1_res_0x7f080010"/>
+    <target
+        android:name="_R_G_L_1_C_0"
+        android:animation="@drawable/_coui_btn_eye_off_anim_desktop__3_res_0x7f080012"/>
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/_coui_btn_eye_off_anim_desktop__5_res_0x7f080014"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_coui_btn_eye_off_anim_desktop__6_res_0x7f080015"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_coui_btn_eye_off_anim_desktop__8_res_0x7f080017"/>
+</animated-vector>

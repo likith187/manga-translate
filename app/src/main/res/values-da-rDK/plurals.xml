@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d element er valgt</item>
+        <item quantity="other">%1$d elementer er valgt</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Side %1$d af %2$d</item>
+        <item quantity="other">Side %1$d af %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d element bliver slettet permanent fra din oversættelseshistorik.</item>
+        <item quantity="other">%1$d elementer bliver slettet permanent fra din oversættelseshistorik.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Vil du slette %1$d element?</item>
+        <item quantity="other">Vil du slette %1$d elementer?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Vil du slette %1$d element fra din oversættelseshistorik?</item>
+        <item quantity="other">Vil du slette %1$d elementer fra din oversættelseshistorik?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d er valgt</item>
+        <item quantity="other">%1$d er valgt</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ny meddelelse</item>
+        <item quantity="other">%d nye meddelelser</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d element slettes permanent fra denne enhed.</item>
+        <item quantity="other">%1$d elementer slettes permanent fra denne enhed.</item>
+    </plurals>
+</resources>

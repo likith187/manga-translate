@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_choose_language"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:paddingHorizontal="16dp"
+    android:forceDarkAllowed="false">
+    <TextView
+        android:textAppearance="?attr/couiColorLabelPrimary"
+        android:textSize="14dp"
+        android:textColor="@color/coui_color_label_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/language_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="0dp"
+        android:lines="1"
+        android:fontFamily="OPPO Sans 4.0"
+        android:textFontWeight="500"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/swap_language"
+        android:layout_marginHorizontal="8dp"/>
+    <TextView
+        android:textAppearance="?attr/couiColorLabelPrimary"
+        android:textSize="14dp"
+        android:textColor="@color/coui_color_label_primary"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/language_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="0dp"
+        android:lines="1"
+        android:fontFamily="OPPO Sans 4.0"
+        android:textFontWeight="500"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_list_bg"
+    android:paddingTop="@dimen/dp_12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:paddingHorizontal="@dimen/dp_16">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@style/couiTextHeadlineXS"
+            android:textColor="?attr/couiColorLabelPrimary"
+            android:id="@+id/tts_speed_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/voice_broadcast_speed"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tts_speed_level"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:textAppearance="@style/couiTextDescription"
+            android:textColor="?attr/couiColorLabelPrimary"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tts_speed_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/times_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.coui.appcompat.seekbar.COUISectionSeekBar
+        android:id="@+id/section_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        app:couiSeekBarThumbColor="@color/coui_seekbar_thumb_color_selector"/>
+    <View
+        android:background="@color/coui_color_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/dp_12"/>
+</LinearLayout>

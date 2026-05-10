@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">דף %1$d מתוך %2$d</item>
+        <item quantity="two">דף %1$d מתוך %2$d</item>
+        <item quantity="many">דף %1$d מתוך %2$d</item>
+        <item quantity="other">דף %1$d מתוך %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">פריט %1$d יימחק לצמיתות מהיסטוריית התרגומים שלך.</item>
+        <item quantity="two">פריטים %1$d יימחקו לצמיתות מהיסטוריית התרגומים שלך.</item>
+        <item quantity="many">פריטים %1$d יימחקו לצמיתות מהיסטוריית התרגומים שלך.</item>
+        <item quantity="other">%1$dפריטים יימחקו לצמיתות מהיסטוריית התרגומים שלך.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">האם למחוק פריט %1$d?</item>
+        <item quantity="two">האם למחוק %1$d פריטים?</item>
+        <item quantity="many">האם למחוק %1$d פריטים?</item>
+        <item quantity="other">האם למחוק %1$d פריטים?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">האם למחוק את הפריט %1$d מהיסטוריית התרגומים?</item>
+        <item quantity="two">האם למחוק את הפריטים %1$d מהיסטוריית התרגומים?</item>
+        <item quantity="many">האם למחוק את הפריטים %1$d מהיסטוריית התרגומים?</item>
+        <item quantity="other">האם למחוק את הפריטים %1$d מהיסטוריית התרגומים?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d נבחרו</item>
+        <item quantity="two">%1$d נבחרו</item>
+        <item quantity="many">%1$d נבחרו</item>
+        <item quantity="other">%1$d נבחרו</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d הודעות חדשות</item>
+        <item quantity="two">%d הודעות חדשות</item>
+        <item quantity="many">%d הודעות חדשות</item>
+        <item quantity="other">%d הודעות חדשות</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">פריט %1$d יימחק לצמיתות ממכשיר זה.</item>
+        <item quantity="two">%1$d פריטים יימחקו לצמיתות ממכשיר זה.</item>
+        <item quantity="many">%1$d פריטים יימחקו לצמיתות ממכשיר זה.</item>
+        <item quantity="other">%1$d פריטים יימחקו לצמיתות ממכשיר זה.</item>
+    </plurals>
+</resources>

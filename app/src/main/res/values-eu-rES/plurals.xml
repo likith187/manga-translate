@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d elementu hautatuta</item>
+        <item quantity="other">%1$d elementu hautatuta</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d/%2$d orria</item>
+        <item quantity="other">%1$d/%2$d orria</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d elementu ezabatuko da behin betiko zure itzulpen-historiatik.</item>
+        <item quantity="other">%1$d elementu ezabatuko dira behin betiko zure itzulpen-historiatik.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d elementu ezabatu?</item>
+        <item quantity="other">%1$d elementu ezabatu?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">%1$d elementu ezabatu itzulpen-historiatik?</item>
+        <item quantity="other">%1$d elementu ezabatu itzulpen-historiatik?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d hautatu da</item>
+        <item quantity="other">%1$d hautatu dira</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d jakinarazpen berri</item>
+        <item quantity="other">%d jakinarazpen berri</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d elementu ezabatuko da betiko gailutik.</item>
+        <item quantity="other">%1$d elementu betiko ezabatuko dira gailutik.</item>
+    </plurals>
+</resources>

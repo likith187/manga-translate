@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.progressbar.COUICompProgressIndicator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="start|center_vertical"
+    android:id="@+id/menu_loading_end"
+    android:focusable="false"
+    android:clickable="false"
+    android:paddingEnd="@dimen/coui_loading_menu_icon_margin_horizontal"
+    app:couiLoadingType="small_animation"
+    style="@style/Widget.COUI.COUICompProgressIndicator.SmallLottieViewStyleInMenu"/>

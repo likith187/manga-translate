@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d tétel kiválasztva</item>
+        <item quantity="other">%1$d tétel kiválasztva</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d/%2$d. oldal</item>
+        <item quantity="other">%1$d/%2$d. oldal</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d elem véglegesen törlődik a fordítási előzmények közül.</item>
+        <item quantity="other">%1$d elem véglegesen törlődik a fordítási előzmények közül.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Töröl %1$d elemet?</item>
+        <item quantity="other">Töröl %1$d elemet?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Törli ezt a(z) %1$d elemet a fordítási előzmények közül?</item>
+        <item quantity="other">Törli ezt a(z) %1$d elemet a fordítási előzmények közül?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d kiválasztva</item>
+        <item quantity="other">%1$d kiválasztva</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d elem végleg törölve lesz erről az eszközről.</item>
+        <item quantity="other">%1$d elem végleg törölve lesz erről az eszközről.</item>
+    </plurals>
+</resources>

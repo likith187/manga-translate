@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="other">បានជ្រើសរើសធាតុ %1$d</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">ទំព័រទី %1$d នៃ %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="other">ធាតុ %1$d នឹងត្រូវបានលុបជាអចិន្ត្រៃយ៍ពីប្រវត្តិបកប្រែរបស់អ្នក។</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="other">លុបធាតុ %1$d ឬ?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="other">លុបធាតុ %1$d ពីប្រវត្តិបកប្រែរបស់អ្នកឬ?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="other">បានជ្រើសរើស %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">ការជូនដំណឹងថ្មីៗ %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="other">ធាតុ %1$d នឹងត្រូវបានលុបជាអចិន្ត្រៃយ៍ចេញពីឧបករណ៍នេះ។</item>
+    </plurals>
+</resources>

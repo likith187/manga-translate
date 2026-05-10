@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traduction vocale</string>
+    <string name="chinese">Chinois</string>
+    <string name="copy_talk">Copier</string>
+    <string name="download_error">Échec du téléchargement</string>
+    <string name="download_offline_package_title">Télécharger le package pour mode déconnecté</string>
+    <string name="english">Anglais</string>
+    <string name="enlarge_talk">Agrandir</string>
+    <string name="french">Français</string>
+    <string name="japanese">Japonais</string>
+    <string name="korean">Coréen</string>
+    <string name="play_sound_talk">Parler</string>
+    <string name="privacy_policy_agree">Accepter et continuer</string>
+    <string name="privacy_policy_more">Politique de confidentialité</string>
+    <string name="tip_max_record_time">L’audio dure de 60 secondes et ne peut pas être reconnu</string>
+    <string name="vietnamese">Vietnamien</string>
+</resources>

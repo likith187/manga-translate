@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="coui_larger_btn_width">344dp</dimen>
+    <dimen name="coui_medium_btn_width">280dp</dimen>
+    <dimen name="layout_grid_margin_large">40dp</dimen>
+    <dimen name="layout_grid_margin_small">40dp</dimen>
+</resources>

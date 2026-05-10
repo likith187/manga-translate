@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/rl_language_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_48"
+        android:paddingHorizontal="@dimen/dp_32">
+        <TextView
+            android:textAppearance="@style/couiTextAppearanceHeadline6"
+            android:textSize="@dimen/sp_16"
+            android:textColor="@color/coui_color_label_primary"
+            android:id="@+id/tv_language_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginVertical="@dimen/dp_13"
+            android:textFontWeight="500"
+            app:layout_constraintEnd_toStartOf="@+id/rb_select"/>
+        <RadioButton
+            android:id="@+id/rb_select"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+        <View
+            android:id="@+id/divider"
+            android:background="@color/coui_color_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.33dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

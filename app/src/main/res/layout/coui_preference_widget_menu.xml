@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/support_preference_widget_focus_jump_padding_top"
+    android:paddingBottom="@dimen/support_preference_widget_focus_jump_padding_bottom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/coui_preference_widget_jump"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coui_pop_up_next"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/support_preference_image_margin_start"/>
+</LinearLayout>

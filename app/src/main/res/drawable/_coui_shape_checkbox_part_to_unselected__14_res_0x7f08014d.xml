@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/_coui_shape_checkbox_part_to_unselected__15_res_0x7f08014e"
+        android:duration="20"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="1.2"
+        android:valueType="floatType"
+        android:propertyName="scaleX"/>
+    <objectAnimator
+        android:interpolator="@drawable/_coui_shape_checkbox_part_to_unselected__16_res_0x7f08014f"
+        android:duration="20"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="1.2"
+        android:valueType="floatType"
+        android:propertyName="scaleY"/>
+    <objectAnimator
+        android:interpolator="@drawable/_coui_shape_checkbox_part_to_unselected__17_res_0x7f080150"
+        android:duration="160"
+        android:startOffset="20"
+        android:valueFrom="1.2"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleX"/>
+    <objectAnimator
+        android:interpolator="@drawable/_coui_shape_checkbox_part_to_unselected__18_res_0x7f080151"
+        android:duration="160"
+        android:startOffset="20"
+        android:valueFrom="1.2"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleY"/>
+</set>

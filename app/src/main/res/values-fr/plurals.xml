@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d élément sélectionné</item>
+        <item quantity="many">%1$d éléments sélectionnés</item>
+        <item quantity="other">%1$d éléments sélectionnés</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Page %1$d sur %2$d</item>
+        <item quantity="many">Page %1$d sur %2$d</item>
+        <item quantity="other">Page %1$d sur %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d élément sera définitivement supprimé de votre historique de traduction.</item>
+        <item quantity="many">%1$d éléments seront définitivement supprimés de votre historique de traduction.</item>
+        <item quantity="other">%1$d éléments seront définitivement supprimés de votre historique de traduction.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Supprimer %1$d élément ?</item>
+        <item quantity="many">Supprimer %1$d éléments ?</item>
+        <item quantity="other">Supprimer %1$d éléments ?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Supprimer %1$d élément de votre historique de traduction ?</item>
+        <item quantity="many">Supprimer %1$d éléments de votre historique de traduction ?</item>
+        <item quantity="other">Supprimer %1$d éléments de votre historique de traduction ?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d sélectionné</item>
+        <item quantity="many">%1$d sélectionnés</item>
+        <item quantity="other">%1$d sélectionnés</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="many">%d nouvelles notifications</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d élément sera définitivement supprimé de cet appareil.</item>
+        <item quantity="many">%1$d éléments seront définitivement supprimés de cet appareil.</item>
+        <item quantity="other">%1$d éléments seront définitivement supprimés de cet appareil.</item>
+    </plurals>
+</resources>

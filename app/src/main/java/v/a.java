@@ -1,0 +1,137 @@
+package v;
+
+import android.content.res.ColorStateList;
+import android.content.res.Resources;
+import android.graphics.ColorFilter;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import java.io.IOException;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class a {
+
+    /* JADX INFO: renamed from: v.a$a, reason: collision with other inner class name */
+    static class C0233a {
+        static void a(Drawable drawable, Resources.Theme theme) {
+            drawable.applyTheme(theme);
+        }
+
+        static boolean b(Drawable drawable) {
+            return drawable.canApplyTheme();
+        }
+
+        static ColorFilter c(Drawable drawable) {
+            return drawable.getColorFilter();
+        }
+
+        static void d(Drawable drawable, Resources resources, XmlPullParser xmlPullParser, AttributeSet attributeSet, Resources.Theme theme) throws XmlPullParserException, IOException {
+            drawable.inflate(resources, xmlPullParser, attributeSet, theme);
+        }
+
+        static void e(Drawable drawable, float f10, float f11) {
+            drawable.setHotspot(f10, f11);
+        }
+
+        static void f(Drawable drawable, int i10, int i11, int i12, int i13) {
+            drawable.setHotspotBounds(i10, i11, i12, i13);
+        }
+
+        static void g(Drawable drawable, int i10) {
+            drawable.setTint(i10);
+        }
+
+        static void h(Drawable drawable, ColorStateList colorStateList) {
+            drawable.setTintList(colorStateList);
+        }
+
+        static void i(Drawable drawable, PorterDuff.Mode mode) {
+            drawable.setTintMode(mode);
+        }
+    }
+
+    static class b {
+        static int a(Drawable drawable) {
+            return drawable.getLayoutDirection();
+        }
+
+        static boolean b(Drawable drawable, int i10) {
+            return drawable.setLayoutDirection(i10);
+        }
+    }
+
+    public static void a(Drawable drawable, Resources.Theme theme) {
+        C0233a.a(drawable, theme);
+    }
+
+    public static boolean b(Drawable drawable) {
+        return C0233a.b(drawable);
+    }
+
+    public static void c(Drawable drawable) {
+        drawable.clearColorFilter();
+    }
+
+    public static int d(Drawable drawable) {
+        return drawable.getAlpha();
+    }
+
+    public static ColorFilter e(Drawable drawable) {
+        return C0233a.c(drawable);
+    }
+
+    public static int f(Drawable drawable) {
+        return b.a(drawable);
+    }
+
+    public static void g(Drawable drawable, Resources resources, XmlPullParser xmlPullParser, AttributeSet attributeSet, Resources.Theme theme) throws XmlPullParserException, IOException {
+        C0233a.d(drawable, resources, xmlPullParser, attributeSet, theme);
+    }
+
+    public static boolean h(Drawable drawable) {
+        return drawable.isAutoMirrored();
+    }
+
+    public static void i(Drawable drawable) {
+        drawable.jumpToCurrentState();
+    }
+
+    public static void j(Drawable drawable, boolean z10) {
+        drawable.setAutoMirrored(z10);
+    }
+
+    public static void k(Drawable drawable, float f10, float f11) {
+        C0233a.e(drawable, f10, f11);
+    }
+
+    public static void l(Drawable drawable, int i10, int i11, int i12, int i13) {
+        C0233a.f(drawable, i10, i11, i12, i13);
+    }
+
+    public static boolean m(Drawable drawable, int i10) {
+        return b.b(drawable, i10);
+    }
+
+    public static void n(Drawable drawable, int i10) {
+        C0233a.g(drawable, i10);
+    }
+
+    public static void o(Drawable drawable, ColorStateList colorStateList) {
+        C0233a.h(drawable, colorStateList);
+    }
+
+    public static void p(Drawable drawable, PorterDuff.Mode mode) {
+        C0233a.i(drawable, mode);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public static Drawable q(Drawable drawable) {
+        return drawable instanceof v.b ? ((v.b) drawable).b() : drawable;
+    }
+
+    public static Drawable r(Drawable drawable) {
+        return drawable;
+    }
+}

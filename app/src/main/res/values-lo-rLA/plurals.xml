@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="other">%1$d ລາຍການທີ່ເລືອກເອົາແລ້ວ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">ໜ້າທີ %1$d ຈາກ %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="other">%1$d ລາຍ​ການ​ຈະ​ຖືກ​ລຶບ​ອອກ​ຈາກປະຫວັດ​ການ​ແປ​ພາ​ສາ​ຂອງ​ທ່ານ​ຢ່າງ​ຖາ​ວອນ.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="other">ລຶບ %1$d ລາຍການ?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="other">ລຶບ %1$d ລາຍການຈາກປະຫວັດ​ການ​ແປ​ພາ​ສາ​ຂອງ​ທ່ານ​ບໍ?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="other">ເລືອກ %1$d ແລ້ວ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="other">%1$d ລາຍການຈະຖືກລຶບຈາກອຸປະກອນເຄື່ອງນີ້ຢ່າງຖາວອນ.</item>
+    </plurals>
+</resources>

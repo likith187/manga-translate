@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">صفحه %1$d از %2$d</item>
+        <item quantity="other">صفحه %1$d از %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d مورد برای همیشه از تاریخچه ترجمه شما حذف خواهد شد.</item>
+        <item quantity="other">%1$d مورد برای همیشه از تاریخچه ترجمه شما حذف خواهد شد.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">حذف %1$d مورد؟</item>
+        <item quantity="other">حذف %1$d مورد؟</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">%1$d مورد از تاریخچه ترجمه شما حذف شود؟</item>
+        <item quantity="other">%1$d مورد از تاریخچه ترجمه شما حذف شود؟</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d اعلان‌ جدید</item>
+        <item quantity="other">%d اعلان‌ جدید</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">مورد %1$d به طور دائم از این دستگاه حذف خواهد شد.</item>
+        <item quantity="other">%1$d مورد به‌طور دائم از این دستگاه حذف خواهد شد.</item>
+    </plurals>
+</resources>

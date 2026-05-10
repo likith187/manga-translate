@@ -1,0 +1,82 @@
+package com.support.preference;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class R$id {
+    public static int INPUT_METHOD_FROM_FOCUSABLE = 2131296261;
+    public static int INPUT_METHOD_NEEDED = 2131296262;
+    public static int INPUT_METHOD_NOT_NEEDED = 2131296263;
+    public static int abl = 2131296273;
+    public static int allSelected = 2131296354;
+    public static int appbar_layout = 2131296373;
+    public static int assignment = 2131296378;
+    public static int assignment_icon = 2131296379;
+    public static int assignment_red_dot = 2131296380;
+    public static int catagory_loading = 2131296439;
+    public static int check_box_layout = 2131296450;
+    public static int checkedtextview = 2131296458;
+    public static int circle = 2131296465;
+    public static int click = 2131296470;
+    public static int coui_anim = 2131296509;
+    public static int coui_btn = 2131296511;
+    public static int coui_head_mark = 2131296520;
+    public static int coui_image = 2131296523;
+    public static int coui_load_progress = 2131296524;
+    public static int coui_preference = 2131296529;
+    public static int coui_preference_listview = 2131296530;
+    public static int coui_preference_widget_jump = 2131296531;
+    public static int coui_statusText1 = 2131296535;
+    public static int coui_statusText_select = 2131296536;
+    public static int coui_tail_mark = 2131296537;
+    public static int coui_text = 2131296538;
+    public static int customLinearLayoutForList = 2131296553;
+    public static int divider_line = 2131296598;
+    public static int edittext_container = 2131296628;
+    public static int head = 2131296708;
+    public static int hignEnd = 2131296713;
+    public static int icon_in_composition = 2131296725;
+    public static int icon_with_title = 2131296728;
+    public static int img_layout = 2131296735;
+    public static int img_red_dot = 2131296736;
+    public static int item_divider = 2131296751;
+    public static int jump_icon_red_dot = 2131296768;
+    public static int large = 2131296787;
+    public static int lowEnd = 2131296821;
+    public static int main_layout = 2131296828;
+    public static int medium = 2131296856;
+    public static int messageLayout = 2131296863;
+    public static int midEnd = 2131296866;
+    public static int noLimit = 2131296919;
+    public static int noPoint = 2131296921;
+    public static int nomal = 2131296924;
+    public static int none = 2131296925;
+    public static int oneLine = 2131296941;
+    public static int partSelected = 2131296986;
+    public static int pointWithNum = 2131297003;
+    public static int ponitOnly = 2131297004;
+    public static int preference_bottom = 2131297018;
+    public static int radio_layout = 2131297030;
+    public static int radio_off = 2131297031;
+    public static int radio_on = 2131297032;
+    public static int recommended_recycler_view = 2131297043;
+    public static int recycler_view = 2131297057;
+    public static int reddot_with_title = 2131297059;
+    public static int round = 2131297083;
+    public static int singleIcon = 2131297153;
+    public static int small = 2131297159;
+    public static int stepper = 2131297215;
+    public static int switchWidget = 2131297230;
+    public static int switch_layout = 2131297231;
+    public static int tail = 2131297253;
+    public static int text_button = 2131297271;
+    public static int text_in_composition = 2131297272;
+    public static int text_in_loading = 2131297273;
+    public static int toolbar = 2131297306;
+    public static int twoLine = 2131297362;
+    public static int txt_content = 2131297374;
+    public static int ultraLowEnd = 2131297383;
+    public static int unSelected = 2131297385;
+    public static int unclick = 2131297387;
+
+    private R$id() {
+    }
+}

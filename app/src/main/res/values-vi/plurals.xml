@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">Đã chọn %1$d mục</item>
+        <item quantity="other">Đã chọn %1$d mục</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Trang %1$d/%2$d</item>
+        <item quantity="other">Trang %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d mục sẽ bị xóa vĩnh viễn khỏi lịch sử dịch thuật của bạn.</item>
+        <item quantity="other">%1$d mục sẽ bị xóa vĩnh viễn khỏi lịch sử dịch thuật của bạn.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Xóa %1$d mục?</item>
+        <item quantity="other">Xóa %1$d mục?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Xóa %1$d mục khỏi lịch sử dịch thuật?</item>
+        <item quantity="other">Xóa %1$d mục khỏi lịch sử dịch thuật?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Đã chọn %1$d</item>
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+        <item quantity="other">%1$d mục sẽ bị xóa vĩnh viễn khỏi thiết bị này.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_coui_checkbox_selected_to_part__0_res_0x7f080097">
+    <target
+        android:name="_R_G_L_3_G_N_7_T_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__1_res_0x7f080098"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__6_res_0x7f0800a9"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__8_res_0x7f0800ab"/>
+    <target
+        android:name="_R_G_L_0_C_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__10_res_0x7f080099"/>
+    <target
+        android:name="_R_G_L_0_G_G_0_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__13_res_0x7f08009c"/>
+    <target
+        android:name="_R_G_L_0_G_N_5_N_7_T_0"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__16_res_0x7f08009f"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_coui_checkbox_selected_to_part__21_res_0x7f0800a5"/>
+</animated-vector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strana %1$d z %2$d</item>
+        <item quantity="few">Strana %1$d z %2$d</item>
+        <item quantity="many">Strana %1$d z %2$d</item>
+        <item quantity="other">Strana %1$d z %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">Z histórie prekladov sa natrvalo odstráni %1$d položka.</item>
+        <item quantity="few">Z histórie prekladov sa natrvalo odstránia %1$d položky.</item>
+        <item quantity="many">Z histórie prekladov sa natrvalo odstráni %1$d položky.</item>
+        <item quantity="other">Z histórie prekladov sa natrvalo odstráni %1$d položiek.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Odstrániť %1$d položku?</item>
+        <item quantity="few">Odstrániť %1$d položiek?</item>
+        <item quantity="many">Odstrániť %1$d položiek?</item>
+        <item quantity="other">Odstrániť %1$d položiek?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Odstrániť %1$d položku z histórie prekladov?</item>
+        <item quantity="few">Odstrániť %1$d položky z histórie prekladov?</item>
+        <item quantity="many">Odstrániť %1$d položky z histórie prekladov?</item>
+        <item quantity="other">Odstrániť %1$d položiek z histórie prekladov?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Vybraté: %1$d</item>
+        <item quantity="few">Vybraté: %1$d</item>
+        <item quantity="many">Vybraté: %1$d</item>
+        <item quantity="other">Vybraté: %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nové oznámenie</item>
+        <item quantity="few">%d nové oznámenia</item>
+        <item quantity="many">%d nových oznámení</item>
+        <item quantity="other">%d nové oznámenia/-í</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d položka sa natrvalo odstráni z tohto zariadenia.</item>
+        <item quantity="few">Počet položiek, ktoré sa natrvalo odstránia z tohto zariadenia: %1$d</item>
+        <item quantity="many">Počet položiek, ktoré sa natrvalo odstránia z tohto zariadenia: %1$d</item>
+        <item quantity="other">Počet položiek, ktoré sa natrvalo odstránia z tohto zariadenia: %1$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strona %1$d z %2$d</item>
+        <item quantity="few">Strona %1$d z %2$d</item>
+        <item quantity="many">Strona %1$d z %2$d</item>
+        <item quantity="other">Strona %1$d z %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d element zostanie trwale usunięty z historii tłumaczeń.</item>
+        <item quantity="few">Te elementy (%1$d) zostaną trwale usunięte z historii tłumaczeń.</item>
+        <item quantity="many">Te elementy (%1$d) zostaną trwale usunięte z historii tłumaczeń.</item>
+        <item quantity="other">Te elementy (%1$d) zostaną trwale usunięte z historii tłumaczeń.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Usunąć %1$d element?</item>
+        <item quantity="few">Usunąć elementy (%1$d)?</item>
+        <item quantity="many">Usunąć elementy (%1$d)?</item>
+        <item quantity="other">Usunąć elementy (%1$d)?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Czy usunąć %1$d element z historii tłumaczeń?</item>
+        <item quantity="few">Czy usunąć te elementy (%1$d) z historii tłumaczeń?</item>
+        <item quantity="many">Czy usunąć te elementy (%1$d) z historii tłumaczeń?</item>
+        <item quantity="other">Czy usunąć te elementy (%1$d) z historii tłumaczeń?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Wybrano: %1$d</item>
+        <item quantity="few">Wybrano: %1$d</item>
+        <item quantity="many">Wybrano: %1$d</item>
+        <item quantity="other">Wybrano: %1$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">Nowe powiadomienia: %d</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">Nowe powiadomienia: %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d element zostanie trwale usunięty z tego urządzenia.</item>
+        <item quantity="few">Liczba elementów, które zostaną trwale usunięte z tego urządzenia: %1$d.</item>
+        <item quantity="many">Liczba elementów, które zostaną trwale usunięte z tego urządzenia: %1$d.</item>
+        <item quantity="other">Liczba elementów, które zostaną trwale usunięte z tego urządzenia: %1$d.</item>
+    </plurals>
+</resources>

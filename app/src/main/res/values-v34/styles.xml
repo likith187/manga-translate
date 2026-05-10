@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="COUIAppbarTitleStyle" parent="@style/couiTextAppearance">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">?attr/couiColorPrimaryNeutral</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-semibold</item>
+        <item name="android:textAlignment">5</item>
+    </style>
+    <style name="COUIAppbarTitleStyle.Expanded" parent="@style/COUIAppbarTitleStyle">
+        <item name="android:textSize">@dimen/coui_appbar_title_expanded_text_size</item>
+        <item name="lineSpacingMultiplier">1.4</item>
+    </style>
+</resources>

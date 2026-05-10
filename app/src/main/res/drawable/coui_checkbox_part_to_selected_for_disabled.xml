@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_coui_checkbox_part_to_selected_for_disabled__0_res_0x7f080067">
+    <target
+        android:name="_R_G_L_0_C_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__1_res_0x7f080068"/>
+    <target
+        android:name="_R_G_L_0_G_G_0_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__3_res_0x7f080079"/>
+    <target
+        android:name="_R_G_L_3_G_N_7_T_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__5_res_0x7f08007b"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__10_res_0x7f080069"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__12_res_0x7f08006b"/>
+    <target
+        android:name="_R_G_L_0_G_N_5_T_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__14_res_0x7f08006d"/>
+    <target
+        android:name="_R_G_L_0_G_N_5_N_7_T_0"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__19_res_0x7f080072"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_coui_checkbox_part_to_selected_for_disabled__24_res_0x7f080078"/>
+</animated-vector>
