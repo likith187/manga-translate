@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">རྣམ་གྲངས་%1$dབདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་%1$dབདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+        <item quantity="other">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">ཟིན་ཐོ%1$dསྒྲིག་ཆས་འདི་ནས་རྦད་དེ་བསུབ་སྲིད།</item>
+        <item quantity="other">ཟིན་ཐོ%1$dསྒྲིག་ཆས་འདི་ནས་རྦད་དེ་བསུབ་སྲིད།</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">རྣམ་གྲངས%1$dབསུབ་དགོས་སམ།</item>
+        <item quantity="other">རྣམ་གྲངས%1$dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">ཟིན་ཐོ%1$dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+        <item quantity="other">ཟིན་ཐོ%1$dབསུབ་འདོར་བྱེད་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">ཚན་པ་%1$dབདམས་ཟིན།</item>
+        <item quantity="other">ཚན་པ་ %1$d བདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">བརྡ་ཐོ་གསར་བ་%d</item>
+        <item quantity="other">བརྡ་ཐོ་གསར་བ་%d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d རྣམ་གྲངས་སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་བསུབ་འདོར་བྱེད།</item>
+        <item quantity="other">%1$d རྣམ་གྲངས་སྒྲིག་ཆས་འདི་ནས་རྦད་དེ་བསུབ་འདོར་བྱེད།</item>
+    </plurals>
+</resources>

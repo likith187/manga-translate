@@ -1,0 +1,30 @@
+.class public final Lkotlinx/coroutines/t0$c;
+.super Lkotlinx/coroutines/internal/m0;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lkotlinx/coroutines/t0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+
+# instance fields
+.field public c:J
+
+
+# direct methods
+.method public constructor <init>(J)V
+    .locals 0
+
+    invoke-direct {p0}, Lkotlinx/coroutines/internal/m0;-><init>()V
+
+    iput-wide p1, p0, Lkotlinx/coroutines/t0$c;->c:J
+
+    return-void
+.end method

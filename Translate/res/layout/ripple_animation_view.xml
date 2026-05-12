@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/dp_98" android:layout_height="@dimen/dp_98"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coloros.translate.widget.CircleView android:id="@id/circle" android:clickable="false" android:layout_width="57.0dp" android:layout_height="57.0dp" android:layout_centerInParent="true" android:elevation="5.0dp" />
+    <com.coloros.translate.widget.RippleView android:layout_gravity="center" android:id="@id/first_ripple" android:clickable="false" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_centerInParent="true" android:elevation="2.0dp" />
+    <com.coloros.translate.widget.RippleView android:layout_gravity="center" android:id="@id/second_ripple" android:clickable="false" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_centerInParent="true" android:elevation="3.0dp" />
+    <com.coloros.translate.widget.RippleView android:layout_gravity="center" android:id="@id/third_ripple" android:clickable="false" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_centerInParent="true" android:elevation="4.0dp" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/animationView" android:visibility="gone" android:clickable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_centerInParent="true" android:contentDescription="@string/str_mute" android:elevation="6.0dp" app:lottie_autoPlay="false" app:lottie_loop="true" app:lottie_rawRes="@raw/mic_on_in" />
+    <ImageView android:layout_gravity="center" android:id="@id/micImage" android:visibility="visible" android:clickable="false" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/mic_on" android:layout_centerInParent="true" android:contentDescription="@string/str_mute" android:elevation="6.0dp" />
+</RelativeLayout>

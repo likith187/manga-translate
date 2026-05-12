@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/coui/appcompat/tablayout/COUITabLayoutMediator$OnConfigureTabCallback;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/coui/appcompat/tablayout/COUITabLayoutMediator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OnConfigureTabCallback"
+.end annotation
+
+
+# virtual methods
+.method public abstract onConfigureTab(Lcom/coui/appcompat/tablayout/COUITab;I)V
+.end method

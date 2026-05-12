@@ -1,0 +1,23 @@
+version: 3.0.2
+apkFileName: Translate.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 31
+  targetSdkVersion: 35
+versionInfo:
+  versionCode: 160026
+  versionName: 16.0.26
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- jpg
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/private_notice_detail" android:key="personal_info_protection_policy" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/translate_user_protocol" android:key="trans_user_protocol" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/withdrawal_personal_info_protection_policy" android:key="cancel_personal_info_protection_policy" app:isPreferenceVisible="false" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

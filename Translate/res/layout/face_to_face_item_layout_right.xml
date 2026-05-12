@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_16">
+        <Space android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/content_layout" android:background="@drawable/face_to_face_right_item_round_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp_12" android:paddingEnd="@dimen/dp_16" android:paddingVertical="@dimen/dp_16" android:forceDarkAllowed="false">
+            <com.coui.appcompat.textview.COUITextView android:textAppearance="?couiTextBodyS" android:textSize="16.0sp" android:textColor="?couiColorSecondNeutral" android:id="@id/languageText" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/face_to_face_max_right_text_width" android:fontFamily="sans-serif-medium" android:layout_marginEnd="36.0dp" android:lineHeight="@dimen/sp_20" android:textFontWeight="600" />
+            <com.airbnb.lottie.LottieAnimationView android:layout_gravity="end|bottom" android:id="@id/ttsPlay" android:background="@drawable/bg_play_blue" android:visibility="visible" android:layout_width="@dimen/dp_24" android:layout_height="@dimen/dp_24" android:contentDescription="@string/play_sound_talk" app:lottie_loop="true" app:lottie_rawRes="@raw/icon_play_blue" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

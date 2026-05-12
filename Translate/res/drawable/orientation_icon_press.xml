@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="24.0dp" android:width="24.0dp" android:viewportWidth="72.0" android:viewportHeight="73.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="group_2">
+        <path android:name="path_width" android:pathData="M 45 15.7 C 42.3 14.6 39.4 14 36.3 14 C 23.6 14 13.3 24.3 13.3 37 C 13.3 41.8 14.8 46.3 17.3 50" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+        <path android:name="path_width_1" android:pathData="M 8 47.9 L 18.5 50 L 20.6 39.8" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+        <group android:name="group_1">
+            <path android:name="path_width_2" android:pathData="M 26.348 58.3 C 29.048 59.4 31.948 60 35.048 60 C 47.748 60 58.048 49.7 58.048 37 C 58.048 32.2 56.548 27.7 54.048 24" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+            <path android:name="path_width_3" android:pathData="M 63.348 26.1 L 52.848 24 L 50.748 34.2" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+        </group>
+        <path android:name="path_width_4" android:pathData="M 28.8 46 L 35.6 29 L 36.8 29 L 44.1 46" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+        <path android:name="path_width_5" android:pathData="M 31.7 39.8 L 40.7 39.8" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+    </group>
+</vector>

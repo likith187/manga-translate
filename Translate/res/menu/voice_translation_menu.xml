@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/to_double_screen" android:id="@id/double_screen" android:visible="false" android:title="@string/double_screen_switch_tips" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/split_mode" android:id="@id/face_to_face" android:title="@string/face_to_face_switch_tips" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/dialog_auto_play_enable" android:id="@id/dialog_auto_play" android:title="@string/tts_auto_play" app:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/menu_edit_translation" android:id="@id/select_mode" android:title="@string/select_mode" app:showAsAction="collapseActionView" />
+</menu>

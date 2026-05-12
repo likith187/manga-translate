@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/si_history" android:id="@id/history" android:title="@string/simultaneous_history" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/si_tts_play" android:id="@id/voice" android:title="@string/tts_auto_play" app:showAsAction="withText|collapseActionView" />
+    <item android:icon="@drawable/si_double_language" android:id="@id/show_both_language" android:title="@string/simultaneous_main_double_language2" app:showAsAction="withText|collapseActionView" />
+    <item android:icon="@drawable/si_translate" android:id="@id/show_translation" android:title="@string/simultaneous_main_translation_language2" app:showAsAction="withText|collapseActionView" />
+</menu>

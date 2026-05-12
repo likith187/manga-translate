@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/bg_transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.edittext.COUIEditText android:textSize="@dimen/sp_16" android:id="@id/et_name" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/coui_input_button_layout_margin_start" android:inputType="text" android:textFontWeight="400" app:couiEditTextDeleteIconNormal="@drawable/clear_content" style="?couiEditTextLineHintDisableStyle" />
+    <View android:id="@id/divider_line" android:background="@color/coui_color_label_theme_blue" android:layout_width="match_parent" android:layout_height="@dimen/dp_1" />
+    <TextView android:textAppearance="?couiTextAppearanceButton" android:textSize="@dimen/sp_10" android:textColor="@color/coui_color_error" android:gravity="center_vertical" android:id="@id/tx_error_tips" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:text="@string/simultaneous_note_rename_limit" android:fontFamily="sans-serif-medium" android:textFontWeight="500" />
+</LinearLayout>

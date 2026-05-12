@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">‫‏%1$d‬ آئٹم منتخب ہے</item>
+        <item quantity="other">%1$d منتخب شدہ اشیاء</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">صفحہ %1$d از %2$d</item>
+        <item quantity="other">صفحہ %1$d از %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d آئٹم کو آپ کے ترجمے کے ریکارڈ سے مستقل طور پر حذف کر دیا جائے گا۔</item>
+        <item quantity="other">%1$d آئٹمز کو آپ کے ترجمے کے ریکارڈ سے مستقل طور پر حذف کر دیا جائے گا۔</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">‫‏%1$d‬ آئٹم حذف کریں؟</item>
+        <item quantity="other">‫‏%1$d‬ آئٹمز حذف کریں؟</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">%1$d آئٹم کو اپنے ترجمے کے ریکارڈ سے حذف کریں؟</item>
+        <item quantity="other">%1$d آئٹمز کو اپنے ترجمے کے ریکارڈ سے حذف کریں؟</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">‫‏%1$d‬ کو منتخب کیا گیا</item>
+        <item quantity="other">‫‏%1$d‬ کو منتخب کیا گیا</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d نئی اطلاع</item>
+        <item quantity="other">%d نئے اعلانات</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d آئٹم اس ڈیوائس سے مستقلاً حذف ہو جائے گا۔</item>
+        <item quantity="other">%1$d آئٹمز اس ڈیوائس سے مستقلاً حذف ہو جائیں گے۔</item>
+    </plurals>
+</resources>

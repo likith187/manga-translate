@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="?couiColorPrimaryNeutral" android:gravity="start" android:id="@id/cancel_content_tv" android:paddingLeft="@dimen/dimen_24dp" android:paddingTop="@dimen/dp_8" android:paddingRight="@dimen/dimen_24dp" android:paddingBottom="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="280.0dp" android:minHeight="140.0dp" android:fontFamily="OPPO Sans 4.0 SC" android:fontWeight="400" android:lineHeight="20.0sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

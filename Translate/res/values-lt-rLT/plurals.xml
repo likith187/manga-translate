@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d psl. iš %2$d</item>
+        <item quantity="few">%1$d psl. iš %2$d</item>
+        <item quantity="many">%1$d psl. iš %2$d</item>
+        <item quantity="other">%1$d psl. iš %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d element. bus visam laikui ištrintas iš vertimų istorijos.</item>
+        <item quantity="few">%1$d element. bus visam laikui ištrinti iš vertimų istorijos.</item>
+        <item quantity="many">%1$d element. bus visam laikui ištrinti iš vertimų istorijos.</item>
+        <item quantity="other">%1$d element. bus visam laikui ištrinti iš vertimų istorijos.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Trinti %1$d elementą?</item>
+        <item quantity="few">Trinti %1$d elementus?</item>
+        <item quantity="many">Trinti %1$d elemento?</item>
+        <item quantity="other">Trinti %1$d elementų?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Trinti %1$d element. iš vertimo istorijos?</item>
+        <item quantity="few">Trinti %1$d element. iš vertimų istorijos?</item>
+        <item quantity="many">Trinti %1$d element. iš vertimų istorijos?</item>
+        <item quantity="other">Trinti %1$d element. iš vertimų istorijos?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Pasirinkta: %1$d</item>
+        <item quantity="few">Pasirinkta: %1$d</item>
+        <item quantity="many">Pasirinkta: %1$d</item>
+        <item quantity="other">Pasirinkta: %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">Naujų pranešimų: %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d elementas bus visam laikui ištrintas iš šio įrenginio.</item>
+        <item quantity="few">Iš šio įrenginio visam laikui bus ištrinti (-a) %1$d elementai (-ų).</item>
+        <item quantity="many">Iš šio įrenginio visam laikui bus ištrinti (-a) %1$d elementai (-ų).</item>
+        <item quantity="other">Iš šio įrenginio visam laikui bus ištrinti (-a) %1$d elementai (-ų).</item>
+    </plurals>
+</resources>

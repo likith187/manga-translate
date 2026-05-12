@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Pagina %1$d din %2$d</item>
+        <item quantity="few">Pagina %1$d din %2$d</item>
+        <item quantity="other">Pagina %1$d din %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d element va fi șters definitiv din istoricul traducerilor.</item>
+        <item quantity="few">%1$d elemente vor fi șterse definitiv din istoricul traducerilor.</item>
+        <item quantity="other">%1$d de elemente vor fi șterse definitiv din istoricul traducerilor.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Ștergeți %1$d element?</item>
+        <item quantity="few">Ștergeți %1$d elemente?</item>
+        <item quantity="other">Ștergeți %1$d de elemente?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Ștergeți %1$d element din istoricul traducerilor?</item>
+        <item quantity="few">Ștergeți %1$d elemente din istoricul traducerilor?</item>
+        <item quantity="other">Ștergeți %1$d de elemente din istoricul traducerilor?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d selectată</item>
+        <item quantity="few">%1$d selectate</item>
+        <item quantity="other">%1$d selectate</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d notificări noi</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d element va fi șters definitiv de pe acest dispozitiv.</item>
+        <item quantity="few">%1$d elemente vor fi șterse definitiv de pe acest dispozitiv.</item>
+        <item quantity="other">%1$d de elemente vor fi șterse definitiv de pe acest dispozitiv.</item>
+    </plurals>
+</resources>

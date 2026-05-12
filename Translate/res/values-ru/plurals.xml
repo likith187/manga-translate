@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">Выбран %1$d элемент</item>
+        <item quantity="few">Выбрано %1$d элемента</item>
+        <item quantity="many">Выбрано %1$d элементов</item>
+        <item quantity="other">Выбрано %1$d элемента(-ов)</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Стр. %1$d из %2$d</item>
+        <item quantity="few">Стр. %1$d из %2$d</item>
+        <item quantity="many">Стр. %1$d из %2$d</item>
+        <item quantity="other">Стр. %1$d из %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d элемент будет удален из истории переводов без возможности восстановления.</item>
+        <item quantity="few">%1$d элемента будут удалены из истории переводов без возможности восстановления.</item>
+        <item quantity="many">%1$d элементов будут удалены из истории переводов без возможности восстановления.</item>
+        <item quantity="other">%1$d элементов будут удалены из истории переводов без возможности восстановления.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Удалить %1$d элемент?</item>
+        <item quantity="few">Удалить %1$d элемента?</item>
+        <item quantity="many">Удалить %1$d элементов?</item>
+        <item quantity="other">Удалить %1$d элементов?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Удалить %1$d элемент из истории переводов?</item>
+        <item quantity="few">Удалить %1$d элемента из истории переводов?</item>
+        <item quantity="many">Удалить %1$d элементов из истории переводов?</item>
+        <item quantity="other">Удалить %1$d элементов из истории переводов?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано: %1$d</item>
+        <item quantity="many">Выбрано: %1$d</item>
+        <item quantity="other">Выбрано: %1$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">Новых уведомлений: %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d элемент будет удален с этого устройства без возможности восстановления.</item>
+        <item quantity="few">%1$d элемента будут удалены с этого устройства без возможности восстановления.</item>
+        <item quantity="many">%1$d элементов будут удалены с этого устройства без возможности восстановления.</item>
+        <item quantity="other">%1$d элементов будут удалены с этого устройства без возможности восстановления.</item>
+    </plurals>
+</resources>

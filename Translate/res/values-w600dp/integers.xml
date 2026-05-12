@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_guide_column_preference">6</integer>
+    <integer name="responsive_ui_column_count">@integer/inner_responsive_ui_column_8</integer>
+    <integer name="screen_type">2</integer>
+</resources>

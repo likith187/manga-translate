@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="236.0dp" android:width="312.0dp" />
+    <solid android:color="#e5e5e5" />
+    <corners android:radius="@dimen/panel_guide_image_corner_size" />
+</shape>

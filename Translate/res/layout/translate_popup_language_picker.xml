@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/coui_color_background_elevatedWithCard" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.toolbar.COUIToolbar android:theme="@style/MenuItemTextAppearance2" android:id="@id/picker_toolbar" android:layout_width="match_parent" android:layout_height="52.0dp" app:menu="@menu/translate_unit_panel_menu" app:supportTitleTextAppearance="@style/couiTextAppearanceHeadline5" />
+    <com.coloros.translate.widget.LanguageChooseView android:id="@id/chooseLanguage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:layout_marginBottom="@dimen/dp_16" android:layout_marginHorizontal="@dimen/dp_16" />
+    <androidx.recyclerview.widget.COUIRecyclerView android:id="@id/recycler" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/coui_color_divider" />
+</LinearLayout>

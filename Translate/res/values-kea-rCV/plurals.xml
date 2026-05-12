@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="collection_time">
+        <item quantity="zero">1063060_%1$d</item>
+        <item quantity="one">1063059_%1$d</item>
+        <item quantity="two">1063062_%1$d</item>
+        <item quantity="few">1063061_%1$d</item>
+        <item quantity="many">1063063_%1$d</item>
+        <item quantity="other">1063058_%1$d</item>
+    </plurals>
+    <plurals name="completely_select_multiple">
+        <item quantity="zero">876909_%1$d items selected</item>
+        <item quantity="one">861508_%1$d item selected</item>
+        <item quantity="two">876912_%1$d items selected</item>
+        <item quantity="few">876910_%1$d items selected</item>
+        <item quantity="many">876911_%1$d items selected</item>
+        <item quantity="other">861505_%1$d items selected</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">1057060_Page %1$d of %2$d</item>
+        <item quantity="one">1057058_Page %1$d of %2$d</item>
+        <item quantity="two">1057062_Page %1$d of %2$d</item>
+        <item quantity="few">1057061_Page %1$d of %2$d</item>
+        <item quantity="many">1057063_Page %1$d of %2$d</item>
+        <item quantity="other">1057059_Page %1$d of %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="zero">1063066_%1$d items will be permanently deleted from your translation history.</item>
+        <item quantity="one">1063064_%1$d item will be permanently deleted from your translation history.</item>
+        <item quantity="two">1063068_%1$d items will be permanently deleted from your translation history.</item>
+        <item quantity="few">1063067_%1$d items will be permanently deleted from your translation history.</item>
+        <item quantity="many">1063069_%1$d items will be permanently deleted from your translation history.</item>
+        <item quantity="other">1063065_%1$d items will be permanently deleted from your translation history.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="zero">1001114_Delete %1$d items?</item>
+        <item quantity="one">1001113_Delete %1$d item?</item>
+        <item quantity="two">1001116_Delete %1$d items?</item>
+        <item quantity="few">1001115_Delete %1$d items?</item>
+        <item quantity="many">1001117_Delete %1$d items?</item>
+        <item quantity="other">1001112_Delete %1$d items?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="zero">1063072_Delete %1$d items from your translation history?</item>
+        <item quantity="one">1063070_Delete %1$d item from your translation history?</item>
+        <item quantity="two">1063074_Delete %1$d items from your translation history?</item>
+        <item quantity="few">1063073_Delete %1$d items from your translation history?</item>
+        <item quantity="many">1063075_Delete %1$d items from your translation history?</item>
+        <item quantity="other">1063071_Delete %1$d items from your translation history?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="zero">1064315_%1$d selected</item>
+        <item quantity="one">1064313_%1$d selected</item>
+        <item quantity="two">1064317_%1$d selected</item>
+        <item quantity="few">1064316_%1$d selected</item>
+        <item quantity="many">1064318_%1$d selected</item>
+        <item quantity="other">1064314_%1$d selected</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">875908_%d new notifications</item>
+        <item quantity="one">840949_%d new notification</item>
+        <item quantity="two">875911_%d new notifications</item>
+        <item quantity="few">875909_%d new notifications</item>
+        <item quantity="many">875910_%d new notifications</item>
+        <item quantity="other">840948_%d new notifications</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="zero">1001121_%1$d items will be permanently deleted from this device.</item>
+        <item quantity="one">1001120_%1$d item will be permanently deleted from this device.</item>
+        <item quantity="two">1001123_%1$d items will be permanently deleted from this device.</item>
+        <item quantity="few">1001122_%1$d items will be permanently deleted from this device.</item>
+        <item quantity="many">1001124_%1$d items will be permanently deleted from this device.</item>
+        <item quantity="other">1001119_%1$d items will be permanently deleted from this device.</item>
+    </plurals>
+</resources>

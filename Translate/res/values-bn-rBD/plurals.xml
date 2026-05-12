@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$dআইটেম নির্বাচন করা হয়েছে</item>
+        <item quantity="other">%1$d আইটেম নির্বাচন করা হয়েছে</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%2$d-এর %1$d পেজ</item>
+        <item quantity="other">%2$d-এর %1$d পেজ</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d টি আইটেম আপনার অনুবাদের ইতিহাস থেকে স্থায়ীভাবে মুছে ফেলা হবে।</item>
+        <item quantity="other">%1$d টি আইটেম আপনার অনুবাদের ইতিহাস থেকে স্থায়ীভাবে মুছে ফেলা হবে।</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d টি আইটেম মুছে ফেলবেন?</item>
+        <item quantity="other">%1$d টি আইটেম মুছে ফেলবেন?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">আপনার অনুবাদের ইতিহাস থেকে %1$d টি আইটেম মুছে ফেলবেন?</item>
+        <item quantity="other">আপনার অনুবাদের ইতিহাস থেকে %1$d টি আইটেম মুছে ফেলবেন?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d জন নির্বাচন করা হয়েছে</item>
+        <item quantity="other">%1$d টি নির্বাচন করা হয়েছে</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d নতুন নোটিফিকেশন</item>
+        <item quantity="other">%d নতুন নোটিফিকেশন</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">এই ডিভাইস থেকে %1$d টি আইটেম স্থায়ীভাবে মুছে ফেলা হবে।</item>
+        <item quantity="other">%1$d টি আইটেম এই ডিভাইস থেকে স্থায়ীভাবে মুছে ফেলা হবে।</item>
+    </plurals>
+</resources>

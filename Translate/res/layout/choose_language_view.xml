@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/languageLt" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/couiTextAppearanceButton" android:textSize="@dimen/sp_14" android:textColor="@drawable/text_color_selector" android:ellipsize="end" android:gravity="center" android:layout_gravity="end" android:id="@id/languageFrom" android:background="@drawable/bg_language_choose_view_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp_20" android:text="@string/chinese" android:maxLines="1" android:drawablePadding="@dimen/dp_4" android:paddingHorizontal="@dimen/dp_14" android:paddingVertical="@dimen/dp_6" android:forceDarkAllowed="false" app:drawableEndCompat="@drawable/ic_triangle_down" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/switchButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switch_language_arrow" android:minHeight="@dimen/dp_20" android:contentDescription="@string/swap_language" android:paddingHorizontal="@dimen/dp_4" />
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?couiTextAppearanceButton" android:textSize="@dimen/sp_14" android:textColor="@drawable/text_color_selector" android:ellipsize="end" android:gravity="center" android:id="@id/languageTo" android:background="@drawable/bg_language_choose_view_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp_20" android:text="@string/english" android:maxLines="1" android:drawablePadding="@dimen/dp_4" android:paddingHorizontal="@dimen/dp_14" android:paddingVertical="@dimen/dp_6" android:forceDarkAllowed="false" app:drawableEndCompat="@drawable/ic_triangle_down" />
+    </FrameLayout>
+</LinearLayout>

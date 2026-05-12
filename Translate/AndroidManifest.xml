@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.coloros.translate" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <compatible-screens/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.oplus.permission.safe.SAU"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.oplus.permission.safe.SECURITY"/>
+    <uses-permission android:name="com.oplus.permission.safe.AI_APP"/>
+    <uses-permission android:name="com.oplus.permission.safe.AUTHENTICATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.oplus.permission.safe.WINDOW"/>
+    <uses-permission android:name="com.oplus.permission.safe.PROTECT"/>
+    <uses-permission android:name="com.oplus.permission.safe.SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="com.oplus.permission.safe.POWER"/>
+    <uses-permission android:name="com.oplus.permission.safe.BACKUP"/>
+    <queries>
+        <package android:name="com.oplus.aiunit"/>
+        <package android:name="com.oneplus.note"/>
+        <package android:name="com.coloros.note"/>
+        <package android:name="com.coloros.translate.engine"/>
+        <package android:name="com.coloros.ocrscanner"/>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+        </intent>
+        <package android:name="com.coloros.ocrservice"/>
+        <package android:name="com.oplus.services"/>
+        <provider android:authorities="com.oplus.statistics.provider"/>
+    </queries>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.oplus.permission.safe.APP_MANAGER"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <permission android:name="com.coloros.translate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.coloros.translate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="oplus.permission.OPLUS_COMPONENT_SAFE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:configChanges="locale" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="true" android:icon="@drawable/ic_app_launcher" android:label="@string/app_name_new" android:name="com.coloros.translate.TranslationApplication" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/AppNoTitleTheme" android:useEmbeddedDex="false">
+        <meta-data android:name="ear_translate_support" android:value="1"/>
+        <meta-data android:name="earphone_dialogue_translation_top_activity" android:value="com.coloros.translate.ui.dialoguetranslation.DialogTranslationActivity|com.coloros.translate.ui.dialoguetranslation.FaceToFaceTranslateActivity"/>
+        <meta-data android:name="earphone_simultaneous_top_activity" android:value="com.coloros.translate.ui.simultaneous.SimultaneousMainActivity"/>
+        <service android:exported="true" android:foregroundServiceType="mediaPlayback" android:name="com.coloros.translate.EarPhoneTranslateService" android:permission="com.oplus.permission.safe.AI_APP">
+            <intent-filter>
+                <action android:name="action.oplus.translate.service.earphone"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.coloros.translate.backuprestore.TranslateDataBRPluginService" android:permission="com.oplus.permission.safe.BACKUP">
+            <meta-data android:name="version" android:value="1"/>
+            <meta-data android:name="isVendorSupport" android:value="true"/>
+            <meta-data android:name="uniqueID" android:value="1780"/>
+            <intent-filter>
+                <action android:name="com.oplus.br.service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.dialoguetranslation.FaceToFaceTranslateActivity" android:permission="com.oplus.permission.safe.AI_APP">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="oplus.translate.action.intent.breeno.face_to_face_translation"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.simultaneous.SimultaneousMainActivity" android:permission="com.oplus.permission.safe.AI_APP" android:screenOrientation="behind" android:theme="@style/SimultaneousFullScreenTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="coloros.intent.action.SIMULTANEOUS_TRANS"/>
+                <action android:name="coloros.intent.action.SIMULTANEOUS_TRANS_FROM_SHORTCUT"/>
+                <action android:name="oplus.translate.action.intent.realtime_translation"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout" android:exported="false" android:name="com.coloros.translate.ui.simultaneous.history.SimultaneousHistoryActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.dialoguetranslation.DialogTranslationActivity" android:permission="com.oplus.permission.safe.AI_APP" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="oplus.translate.action.intent.conversation_translation"/>
+                <action android:name="oplus.translate.action.intent.breeno.dialog_translation"/>
+            </intent-filter>
+            <meta-data android:name="oplus.compat.features.disable" android:value="orientation"/>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:enableOnBackInvokedCallback="true" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.MainActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="coloros.intent.action.TRANSLATION.COMPASS"/>
+                <action android:name="coloros.intent.action.TRANSLATION.ASSISTANT"/>
+                <category android:name="android.intent.category.MONKEY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="market.intent.action.MAIN_OPEN"/>
+                <action android:name="coloros.intent.action.TRANSLATION_MAIN_PAGE"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.dialoguetranslation.EditTranslateTextActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.coloros.translate.ui.texttranslation.EnlargeActivity" android:permission="oppo.permission.OPPO_COMPONENT_SAFE" android:theme="@style/AppFullScreenTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:enableOnBackInvokedCallback="false" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.texttranslation.TextTranslationActivity" android:permission="com.oplus.permission.safe.AI_APP" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="oplus.translate.action.intent.breeno.text_translation"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|uiMode|screenSize" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.texttranslation.TextTranslationPanelActivity" android:screenOrientation="behind" android:taskAffinity="com.coloros.translate.panel" android:theme="@style/TranslucentTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.PROCESS_TEXT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.TRANSLATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="oplus.intent.action.GLOBAL_TRANSLATION_PANEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.coloros.translate.ui.simultaneous.history.SimultaneousHistoryDetailsActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.setting.SettingActivity" android:permission="com.oplus.permission.safe.SETTINGS" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment">
+            <intent-filter>
+                <action android:name="com.oplus.setting.ai.action.SETTING_ENTRANCE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <meta-data android:name="com.oplus.setting.ai.ID" android:value="20040000"/>
+            <meta-data android:name="com.oplus.setting.ai.ICON" android:resource="@drawable/setting_app_icon_layer_drawable"/>
+            <meta-data android:name="com.oplus.setting.ai.FUNCTION_NAME" android:resource="@string/ai_btn"/>
+            <meta-data android:name="com.oplus.setting.ai.AUXILIARY_TEXT" android:resource="@string/app_content"/>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.thirdInfo.ThirdPartyInfoActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.protectionpolicy.ProtectionPolicyActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.userprotocol.UserProtocolActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.about.AboutUsActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.about.OpenSourceStatementActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.collect.CollectPersonalInfoActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.collect.CollectPersonalInfoDetailActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="false" android:name="com.coloros.translate.ui.setting.privacy.PrivacyActivity" android:screenOrientation="behind" android:theme="@style/AppNoTitleTheme.PreferenceFragment"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.coloros.translate.ui.cube.CubeSettingActivity" android:permission="com.oplus.permission.safe.SETTINGS" android:screenOrientation="nosensor" android:theme="@style/CuteSettingTheme">
+            <intent-filter>
+                <action android:name="coloros.intent.action.translate.CUBE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.coloros.translate.BreenoAbilityProvider" android:enabled="true" android:exported="true" android:name="com.coloros.translate.BreenoAbilityProvider" android:permission="com.oplus.permission.safe.ASSISTANT">
+            <intent-filter>
+                <action android:name="com.oplus.seedling.action.SEEDLING_SERVICE"/>
+            </intent-filter>
+            <meta-data android:name="oplus.seedling.provider" android:value="config.json"/>
+        </provider>
+        <provider android:authorities="com.coloros.translate.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/share_recording_file_paths"/>
+        </provider>
+        <service android:exported="true" android:name="com.coloros.translate.ui.cube.KeyMessengerService" android:permission="com.oplus.permission.safe.SETTINGS">
+            <intent-filter>
+                <action android:name="com.coloros.translate.service.KeyMessengerService"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="AppCode" android:value="20147"/>
+        <meta-data android:name="versionDate" android:value="260123"/>
+        <meta-data android:name="versionCommit" android:value="f685e5d"/>
+        <meta-data android:name="OppoPermissionKey" android:value="@string/safe_permission_value"/>
+        <meta-data android:name="OplusPermissionKey" android:value="@string/safe_permission_value"/>
+        <meta-data android:name="color_material_enable" android:value="true"/>
+        <meta-data android:name="upgrade_product_code" android:value="20002"/>
+        <meta-data android:name="com.oplus.aiunit.auth_style" android:value="0"/>
+        <meta-data android:name="aiunit_download_group" android:value="ai_omni,ai_doc_translate,translation_app"/>
+        <meta-data android:name="OsdkSecurityCode" android:value="@string/osdk_security_code"/>
+        <meta-data android:name="support_by_aiunit" android:value="1"/>
+        <meta-data android:name="support_text_translation_panel" android:value="1"/>
+        <meta-data android:name="support_split_screen" android:value="0"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/download_offline_package_title" android:launchMode="singleTask" android:name="com.coloros.translate.engine.offline.OfflineDownloadActivity" android:permission="com.oplus.permission.safe.AI_APP" android:screenOrientation="behind" android:theme="@style/DownLoadPageTheme">
+            <intent-filter>
+                <action android:name="oplus.intent.action.TRANSLATE_DOWNLOADS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="oplus_search_config" android:resource="@xml/oplus_search_config"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="false" android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="true" android:foregroundServiceType="mediaPlayback" android:name="com.coloros.translate.screen.ScreenTranslationService" android:permission="com.oplus.permission.safe.AI_APP" android:stopWithTask="true">
+            <property android:name="com.coloros.translate.screen.SCREEN_TRANSLATION_SERVICE" android:value="true"/>
+            <intent-filter>
+                <action android:name="oplus.intent.action.GLOBAL_TRANSLATION"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|density|fontScale" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.coloros.translate.screen.NotificationPermissionActivity" android:screenOrientation="behind" android:taskAffinity="com.coloros.translate.screen" android:theme="@style/TranslucentTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:name="com.coloros.translate.screen.ScreenPrivacyActivity" android:screenOrientation="behind" android:taskAffinity="com.coloros.translate.screen" android:theme="@style/TranslucentTheme"/>
+        <receiver android:exported="true" android:name="com.coloros.translate.screen.receiver.ScreenTranslationReceiver" android:permission="com.oplus.permission.safe.AI_APP">
+            <intent-filter>
+                <action android:name="oplus.intent.action.GLOBAL_TRANSLATION_EXIT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="supportGlobalTranslation" android:value="true"/>
+        <meta-data android:name="support_screen_translation" android:value="1"/>
+        <service android:exported="true" android:name="com.coloros.translate.engine.service.TranslateService" android:permission="com.oplus.permission.safe.AI_APP">
+            <intent-filter>
+                <action android:name="oplus.intent.action.TRANSLATE_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="SLP_APPKEY" android:value="TESTAPPKEY"/>
+        <meta-data android:name="SLP_SECRETKEY" android:value="TESTSECRETKEY"/>
+        <meta-data android:name="SLP_CODE" android:value="TESTCODE"/>
+        <meta-data android:name="coui.support.appcompat.version" android:value="16.0.4-beta1ab7219"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.bundled.internal.ThickLanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.internal.LanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.coloros.translate.mlkitinitprovider" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.coloros.translate.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="protocol_version_codes" android:value="203"/>
+        <meta-data android:name="aiunit_download_enable" android:value="true"/>
+        <provider android:authorities="com.coloros.translate.SlpConfig" android:exported="false" android:multiprocess="false" android:name="com.slp.library.a"/>
+        <meta-data android:name="com.oplus.support:api-adapter" android:value="13.2.1"/>
+        <meta-data android:name="dependencies:implementation:com.oplus.appfeature:settings" android:value="2.2.0"/>
+        <provider android:authorities="com.coloros.translate.tingle" android:directBootAware="true" android:exported="false" android:multiprocess="true" android:name="com.oplus.tingle.ipc.internal.TingleProvider"/>
+        <meta-data android:name="com.oplus.tingle:tingle" android:value="3.1.0"/>
+        <provider android:authorities="com.coloros.translate.oplus.epona" android:directBootAware="true" android:exported="true" android:multiprocess="true" android:name="com.oplus.epona.internal.EponaProvider" android:permission="com.oplus.permission.safe.SECURITY"/>
+        <meta-data android:name="com.oplus.epona:epona" android:value="2.6.2"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.coloros.translate.epona" android:directBootAware="true" android:exported="true" android:multiprocess="true" android:name="com.heytap.epona.internal.EponaProvider" android:permission="com.oppo.permission.safe.SECURITY"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="dependencies:implementation:com.oplus.utils:reflect" android:value="2.1.1"/>
+        <meta-data android:name="com.oplus.utils:loggerUtils" android:value="1.0.1"/>
+    </application>
+</manifest>

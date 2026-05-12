@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d избран елемент</item>
+        <item quantity="other">%1$d избрани елемента</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Страница %1$d от %2$d</item>
+        <item quantity="other">Страница %1$d от %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d елемент ще бъде изтрит за постоянно от вашата история на преводите.</item>
+        <item quantity="other">%1$d елемента ще бъдат изтрити за постоянно от вашата история на преводите.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Изтриване на %1$d елемент?</item>
+        <item quantity="other">Изтриване на %1$d елемента?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Да се изтрие ли %1$d елемент от вашата история на преводите?</item>
+        <item quantity="other">Да се изтрият ли %1$d елемента от вашата история на преводите?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d избран</item>
+        <item quantity="other">%1$d избрани</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d елемент ще бъде изтрит за постоянно от това устройство.</item>
+        <item quantity="other">%1$d елемента ще бъдат изтрити за постоянно от това устройство.</item>
+    </plurals>
+</resources>

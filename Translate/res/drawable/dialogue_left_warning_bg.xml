@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/dialogue_item_bg_radius" android:topRightRadius="@dimen/dialogue_item_bg_radius" android:bottomLeftRadius="@dimen/dp_0" android:bottomRightRadius="@dimen/dialogue_item_bg_radius" />
+    <solid android:color="@color/warning_content_bg_color" />
+</shape>

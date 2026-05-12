@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="zero">تم تحديد %1$d عنصر</item>
+        <item quantity="one">تم تحديد %1$d من العناصر</item>
+        <item quantity="two">تم تحديد عنصرين</item>
+        <item quantity="few">تم تحديد %1$d عناصر</item>
+        <item quantity="many">تم تحديد %1$d عنصرًا</item>
+        <item quantity="other">تم تحديد %1$d من العناصر</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">صفحة %1$d من %2$d</item>
+        <item quantity="one">صفحة %1$d من %2$d</item>
+        <item quantity="two">صفحة %1$d من %2$d</item>
+        <item quantity="few">صفحة %1$d من %2$d</item>
+        <item quantity="many">صفحة %1$d من %2$d</item>
+        <item quantity="other">صفحة %1$d من %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="zero">سيتم حذف %1$d عنصر نهائيًا من سجل الترجمة الخاص بك.</item>
+        <item quantity="one">سيتم حذف عنصر واحد نهائيًا من سجل الترجمة الخاص بك.</item>
+        <item quantity="two">سيتم حذف عنصرين نهائيًا من سجل الترجمة الخاص بك.</item>
+        <item quantity="few">سيتم حذف %1$d عناصر نهائيًا من سجل الترجمة الخاص بك.</item>
+        <item quantity="many">سيتم حذف %1$d عنصرًا نهائيًا من سجل الترجمة الخاص بك.</item>
+        <item quantity="other">سيتم حذف %1$d عنصر نهائيًا من سجل الترجمة الخاص بك.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="zero">هل تريد حذف %1$d عنصر؟</item>
+        <item quantity="one">هل تريد حذف عنصر واحد؟</item>
+        <item quantity="two">هل تريد حذف عنصرين؟</item>
+        <item quantity="few">هل تريد حذف %1$d عناصر؟</item>
+        <item quantity="many">هل تريد حذف %1$d عنصرًا؟</item>
+        <item quantity="other">هل تريد حذف %1$d عنصر؟</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="zero">هل تريد حذف %1$d عنصر من سجل الترجمة الخاص بك؟</item>
+        <item quantity="one">هل تريد حذف عنصر واحد من سجل الترجمة الخاص بك؟</item>
+        <item quantity="two">هل تريد حذف عنصرين من سجل الترجمة الخاص بك؟</item>
+        <item quantity="few">هل تريد حذف %1$d عناصر من سجل الترجمة الخاص بك؟</item>
+        <item quantity="many">هل تريد حذف %1$d عنصرًا من سجل الترجمة الخاص بك؟</item>
+        <item quantity="other">هل تريد حذف %1$d عنصر من سجل الترجمة الخاص بك؟</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="zero">تم تحديد %1$d</item>
+        <item quantity="one">تم تحديد %1$d</item>
+        <item quantity="two">تم تحديد %1$d</item>
+        <item quantity="few">تم تحديد %1$d</item>
+        <item quantity="many">تم تحديد %1$d</item>
+        <item quantity="other">تم تحديد %1$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">%d من الإشعارات الجديدة</item>
+        <item quantity="two">إشعاران جديدان</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d من الإشعارات الجديدة</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="zero">سيتم حذف %1$d عنصر نهائيًا من هذا الجهاز.</item>
+        <item quantity="one">سيتم حذف عنصر واحد نهائيًا من هذا الجهاز.</item>
+        <item quantity="two">سيتم حذف عنصرين نهائيًا من هذا الجهاز.</item>
+        <item quantity="few">سيتم حذف %1$d عناصر نهائيًا من هذا الجهاز.</item>
+        <item quantity="many">سيتم حذف %1$d عنصرًا نهائيًا من هذا الجهاز.</item>
+        <item quantity="other">سيتم حذف %1$d عنصر نهائيًا من هذا الجهاز.</item>
+    </plurals>
+</resources>

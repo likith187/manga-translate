@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_14" android:paddingHorizontal="@dimen/dp_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_68" android:paddingHorizontal="@dimen/dp_24" android:paddingVertical="@dimen/dp_12">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/couiTextHeadlineXS" android:textColor="@color/coui_color_label_primary" android:ellipsize="end" android:id="@id/ori_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toStartOf="@id/checkbox" android:layout_alignParentStart="true" android:lineHeight="@dimen/sp_line_height_22" android:textFontWeight="500" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_2" android:layout_below="@id/ori_content" android:layout_toStartOf="@id/checkbox" android:layout_alignParentStart="true">
+            <ImageView android:id="@id/ai_mark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_3" android:src="@drawable/item_ai_mark" android:layout_marginEnd="@dimen/dp_4" />
+            <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/couiTextBodyM" android:textColor="@color/coui_color_label_secondary" android:ellipsize="end" android:id="@id/result_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:lineHeight="@dimen/sp_20" android:textFontWeight="400" />
+        </LinearLayout>
+        <com.coui.appcompat.checkbox.COUICheckBox android:id="@id/checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_16" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

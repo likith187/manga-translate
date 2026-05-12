@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_history_item" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/couiTextDisplayXS" android:textColor="@color/coui_color_label_primary" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dp_20" android:lineHeight="34.0sp" />
+    <TextView android:textSize="@dimen/sp_14" android:textColor="@color/coui_color_label_secondary" android:id="@id/tx_date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_16" android:fontFamily="sans-serif-medium" android:lineHeight="@dimen/sp_20" android:textFontWeight="400" />
+    <include layout="@layout/item_simultaneous_history_details" />
+</LinearLayout>

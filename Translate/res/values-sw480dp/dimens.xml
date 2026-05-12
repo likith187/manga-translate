@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_item_layout_extra">152.0dp</dimen>
+    <dimen name="dialog_item_layout_padding_horizontal">24.0dp</dimen>
+    <dimen name="dialog_max_text_width">490.0dp</dimen>
+    <dimen name="face_to_face_layout_landscape_langauge_margin_start">16.0dp</dimen>
+    <dimen name="face_to_face_layout_landscape_padding_horizontal">24.0dp</dimen>
+    <dimen name="face_to_face_layout_landscape_padding_top">24.0dp</dimen>
+    <dimen name="face_to_face_portrait_close_icon_margin_end">32.0dp</dimen>
+    <dimen name="setting_card_margin_start_end">100.0dp</dimen>
+    <dimen name="switch_language_margin_end">126.0dp</dimen>
+    <dimen name="switch_language_margin_start">110.0dp</dimen>
+    <dimen name="toolbar_min_height">60.0dp</dimen>
+    <dimen name="up_button_icon_margin_start_end">7.0dp</dimen>
+    <dimen name="up_button_icon_margin_top_down">40.0dp</dimen>
+    <dimen name="up_down_button_width">280.0dp</dimen>
+    <dimen name="voice_left_button_margin_start">65.0dp</dimen>
+    <dimen name="voice_right_button_margin_end">65.0dp</dimen>
+</resources>

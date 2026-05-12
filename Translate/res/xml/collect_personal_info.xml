@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/exchange_info" android:key="exchange_info">
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/characters" android:key="characters" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/picture" android:key="picture" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/voice_frequency" android:key="voice_frequency" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

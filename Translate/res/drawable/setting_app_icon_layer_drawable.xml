@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/dp_50" android:width="@dimen/dp_50" android:drawable="@drawable/setting_app_icon_background" android:top="0.0dp" android:start="0.0dp" />
+    <item android:gravity="center" android:height="@dimen/dp_50" android:width="@dimen/dp_50" android:drawable="@drawable/setting_app_icon_foreground" android:top="0.0dp" android:start="0.0dp" />
+</layer-list>

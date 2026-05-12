@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coloros.translate.ui.setting.CustomTTsPreference android:layout="@layout/preference_tts_layout" android:selectable="false" android:key="play_speed" app:couiShowDivider="false" />
+        <com.coui.appcompat.preference.COUIPreference android:title="@string/broadcast_timbre" android:key="broadcast_timbre" android:summary="@string/broadcast_timbre_tip" app:couiSetDefaultColor="true" app:couiShowDivider="false" app:selectable="false" />
+        <com.coloros.translate.ui.setting.CustomMarkPreference android:title="@string/timbre_female" android:key="timbre_female" android:summary="@string/timbre_female_content" app:icon="@drawable/female" />
+        <com.coloros.translate.ui.setting.CustomMarkPreference android:title="@string/timbre_male" android:key="timbre_male" android:summary="@string/timbre_male_content" app:icon="@drawable/male" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/download_offline_package_title" android:key="download_offline_package" android:summary="@string/download_offline_package_notes" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUIPreference android:title="@string/app_version" android:key="version_code" android:summary="1.4.0" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/about_translation" android:key="abouts_us" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/collect_personal_info_title" android:key="collect_personal_info_list" app:isPreferenceVisible="false" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/third_party_info_title" android:key="third_party_info_list" app:isPreferenceVisible="false" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:title="@string/privacy" android:key="privacy" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

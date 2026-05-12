@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">Atlasīts %1$d vienums</item>
+        <item quantity="other">Atlasīts(-i) %1$d vienums(-i)</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="one">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="other">%1$d. no %2$d lapas(-ām)</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="zero">%1$d vienumi tiks neatgriezeniski izdzēsti no jūsu tulkošanas vēstures.</item>
+        <item quantity="one">%1$d vienums tiks neatgriezeniski izdzēsts no jūsu tulkošanas vēstures.</item>
+        <item quantity="other">%1$d vienumi tiks neatgriezeniski izdzēsti no jūsu tulkošanas vēstures.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="zero">Dzēst %1$d vienumus?</item>
+        <item quantity="one">Dzēst %1$d vienumu?</item>
+        <item quantity="other">Dzēst %1$d vienumus?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="zero">Vai dzēst %1$d vienumus no tulkošanas vēstures?</item>
+        <item quantity="one">Vai dzēst %1$d vienumu no tulkošanas vēstures?</item>
+        <item quantity="other">Vai dzēst %1$d vienumus no tulkošanas vēstures?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="zero">%1$d atlasīti</item>
+        <item quantity="one">%1$d atlasīts</item>
+        <item quantity="other">%1$d atlasīti</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d jauni paziņojumi</item>
+        <item quantity="one">Jauns %d paziņojums</item>
+        <item quantity="other">Jauni %d paziņojumi</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="zero">%1$d vienumi tiks neatgriezeniski dzēsti no šīs ierīces.</item>
+        <item quantity="one">%1$d vienums tiks neatgriezeniski izdzēsts no šīs ierīces.</item>
+        <item quantity="other">%1$d vienumi tiks neatgriezeniski dzēsti no šīs ierīces.</item>
+    </plurals>
+</resources>

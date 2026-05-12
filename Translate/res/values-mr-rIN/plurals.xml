@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="completely_select_multiple">
+        <item quantity="one">%1$d आयटम निवडले</item>
+        <item quantity="other">%1$d आयटम्‍स निवडले</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%2$d पैकी %1$d पृष्ठ</item>
+        <item quantity="other">%2$d पैकी %1$d पृष्ठ</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">आपल्या भाषांतर इतिहासातून %1$d आयटम कायमचा हटवला जाईल.</item>
+        <item quantity="other">आपल्या भाषांतर इतिहासातून %1$d आयटम्स कायमचे हटवले जातील.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d आयटम हटवायचा?</item>
+        <item quantity="other">%1$d आयटम्स हटवायचे?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">आपल्या भाषांतर इतिहासातून %1$d आयटम हटवायचा?</item>
+        <item quantity="other">आपल्या भाषांतर इतिहासातून %1$d आयटम्स हटवायचे?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d निवडले</item>
+        <item quantity="other">%1$d निवडले</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नवीन सूचना</item>
+        <item quantity="other">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">या डिव्हाइस मधून %1$d आयटम कायमचे हटवले जाईल.</item>
+        <item quantity="other">या डिव्हाइस मधून %1$d आयटम्स कायमचे हटवले जातील.</item>
+    </plurals>
+</resources>

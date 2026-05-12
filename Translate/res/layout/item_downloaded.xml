@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64.0dp" android:paddingHorizontal="@dimen/dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?couiTextHeadlineXS" android:textSize="16.0sp" android:textColor="?couiColorLabelPrimary" android:id="@id/package_item_name" android:paddingTop="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineHeight="22.0dp" android:textFontWeight="500" />
+    <TextView android:textAppearance="?couiTextBodyM" android:textSize="14.0sp" android:textColor="?couiColorLabelSecondary" android:ellipsize="end" android:id="@id/package_item_size" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/package_item_name" android:lineHeight="20.0dp" android:textFontWeight="400" />
+    <View android:id="@id/divider_line" android:background="?couiColorDivider" android:layout_width="match_parent" android:layout_height="@dimen/coui_list_divider_height" android:layout_below="@id/package_item_size" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" android:forceDarkAllowed="false" />
+</RelativeLayout>

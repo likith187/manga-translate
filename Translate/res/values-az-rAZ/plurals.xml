@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Səhifə %1$d/%2$d</item>
+        <item quantity="other">Səhifə %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">%1$d element tərcümə tarixçənizdən həmişəlik silinəcək.</item>
+        <item quantity="other">%1$d element tərcümə tarixçənizdən həmişəlik silinəcək.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">%1$d elementi sil?</item>
+        <item quantity="other">%1$d elementi sil?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">%1$d element tərcümə tarixçənizdən silinsin?</item>
+        <item quantity="other">%1$d element tərcümə tarixçənizdən silinsin?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">Seçilib: %1$d</item>
+        <item quantity="other">Seçilib: %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d yeni bildiriş</item>
+        <item quantity="other">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d element bu cihazdan həmişəlik silinəcək.</item>
+        <item quantity="other">%1$d element bu cihazdan həmişəlik silinəcək.</item>
+    </plurals>
+</resources>

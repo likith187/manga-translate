@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strana %1$d / %2$d</item>
+        <item quantity="few">Strana %1$d / %2$d</item>
+        <item quantity="many">Strana %1$d / %2$d</item>
+        <item quantity="other">Strana %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delete_item">
+        <item quantity="one">Tato %1$d položka bude z vaší historie překladů trvale smazána.</item>
+        <item quantity="few">Tyto %1$d položky budou z vaší historie překladů trvale smazány.</item>
+        <item quantity="many">Těchto %1$d položek bude z vaší historie překladů trvale smazáno.</item>
+        <item quantity="other">Tyto %1$d položky budou z vaší historie překladů trvale smazány.</item>
+    </plurals>
+    <plurals name="delete_project">
+        <item quantity="one">Smazat %1$d položku?</item>
+        <item quantity="few">Smazat %1$d položky?</item>
+        <item quantity="many">Smazat %1$d položek?</item>
+        <item quantity="other">Smazat %1$d položek?</item>
+    </plurals>
+    <plurals name="if_delete_item">
+        <item quantity="one">Smazat %1$d položku z vaší historie překladů?</item>
+        <item quantity="few">Smazat %1$d položky z vaší historie překladů?</item>
+        <item quantity="many">Smazat %1$d položek z vaší historie překladů?</item>
+        <item quantity="other">Smazat %1$d položky z vaší historie překladů?</item>
+    </plurals>
+    <plurals name="mark_selected_item">
+        <item quantity="one">%1$d vybrána</item>
+        <item quantity="few">%1$d vybrány</item>
+        <item quantity="many">%1$d vybráno</item>
+        <item quantity="other">%1$d vybráno</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nových oznámení</item>
+        <item quantity="other">Nových oznámení: %d</item>
+    </plurals>
+    <plurals name="remove_completely_part">
+        <item quantity="one">%1$d položka bude z tohoto zařízení trvale smazána.</item>
+        <item quantity="few">%1$d položky budou z tohoto zařízení trvale smazány.</item>
+        <item quantity="many">%1$d položek bude z tohoto zařízení trvale smazáno.</item>
+        <item quantity="other">%1$d položek bude z tohoto zařízení trvale smazáno.</item>
+    </plurals>
+</resources>

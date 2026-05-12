@@ -1,0 +1,95 @@
+.class public Lf6/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private final a:Ljava/util/List;
+
+.field private final b:C
+
+.field private final c:D
+
+.field private final d:D
+
+.field private final e:Ljava/lang/String;
+
+.field private final f:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/util/List;CDDLjava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lf6/e;->a:Ljava/util/List;
+
+    iput-char p2, p0, Lf6/e;->b:C
+
+    iput-wide p3, p0, Lf6/e;->c:D
+
+    iput-wide p5, p0, Lf6/e;->d:D
+
+    iput-object p7, p0, Lf6/e;->e:Ljava/lang/String;
+
+    iput-object p8, p0, Lf6/e;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static c(CLjava/lang/String;Ljava/lang/String;)I
+    .locals 0
+
+    mul-int/lit8 p0, p0, 0x1f
+
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+
+    move-result p1
+
+    add-int/2addr p0, p1
+
+    mul-int/lit8 p0, p0, 0x1f
+
+    invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
+
+    move-result p1
+
+    add-int/2addr p0, p1
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public a()Ljava/util/List;
+    .locals 0
+
+    iget-object p0, p0, Lf6/e;->a:Ljava/util/List;
+
+    return-object p0
+.end method
+
+.method public b()D
+    .locals 2
+
+    iget-wide v0, p0, Lf6/e;->d:D
+
+    return-wide v0
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    iget-char v0, p0, Lf6/e;->b:C
+
+    iget-object v1, p0, Lf6/e;->f:Ljava/lang/String;
+
+    iget-object p0, p0, Lf6/e;->e:Ljava/lang/String;
+
+    invoke-static {v0, v1, p0}, Lf6/e;->c(CLjava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_fill_alpha">0.1</dimen>
+    <dimen name="dim_background">0.6</dimen>
+</resources>
